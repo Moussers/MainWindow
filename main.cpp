@@ -1,4 +1,5 @@
-#include<Windows.h>
+﻿#include<Windows.h>
+#include"resource.h"
 
 CONST CHAR g_sz_WINDOW_CLASS[] = "My first window";
 LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
@@ -10,9 +11,19 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevINST, LPSTR lpCmdLine, IN
 	wClass.cbClsExtra = 0;
 	wClass.cbWndExtra = 0;
 
-	wClass.hIcon = LoadIcon(NULL, IDI_APPLICATION);
-	wClass.hIconSm = LoadIcon(NULL, IDI_APPLICATION);
-	wClass.hCursor = LoadCursor(NULL, IDC_ARROW);
+	wClass.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON_BITCOIN));
+	wClass.hIconSm = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON_PALM));
+	/*wClass.hIcon = (HICON)LoadImage(hInstance, "bitcoin.ico", IMAGE_ICON, LR_DEFAULTSIZE, LR_DEFAULTSIZE, LR_LOADFROMFILE);
+	wClass.hIconSm = (HICON)LoadImage(hInstance, "palm.ico", IMAGE_ICON, LR_DEFAULTSIZE, LR_DEFAULTSIZE, LR_LOADFROMFILE);*/
+	wClass.hCursor = (HCURSOR)LoadImage
+	(
+		hInstance, 
+		"starcraft - original\\Vertical Resize",
+		IMAGE_CURSOR,
+		LR_DEFAULTSIZE, LR_DEFAULTSIZE,
+		LR_LOADFROMFILE
+	);
+	//wClass.hCursor = LoadCursor(hInstance, MAKEINTRESOURCE(IDC_CURSOR1));
 	wClass.hbrBackground = (HBRUSH)(COLOR_WINDOW + 1);
 	
 	wClass.hInstance = hInstance;
@@ -30,7 +41,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevINST, LPSTR lpCmdLine, IN
 		g_sz_WINDOW_CLASS,		
 		WS_OVERLAPPEDWINDOW,
 		CW_USEDEFAULT, CW_USEDEFAULT,
-		CW_USEDEFAULT, CW_USEDEFAULT,
+		640, 480,
 		NULL,
 		NULL,		
 		hInstance,
@@ -43,13 +54,20 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevINST, LPSTR lpCmdLine, IN
 	}
 	ShowWindow(hwnd, nCmdShow);
 	UpdateWindow(hwnd);
-	return 0;
+	MSG msg;
+	while (GetMessage(&msg, NULL, 0, 0) > 0) 
+	{
+		TranslateMessage(&msg);
+		DispatchMessage(&msg);
+	}
+	return msg.wParam;
 };
 LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
 	switch(uMsg)
 	{
 	case WM_CREATE:
+		MessageBox(hwnd, "Cursor check", "Info", MB_OK | MB_ICONINFORMATION);
 		break;
 	case WM_COMMAND:
 		break;
