@@ -3,6 +3,7 @@
 
 CONST CHAR g_sz_WINDOW_CLASS[] = "My first window";
 LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
+void CenterWindow(HWND &hwnd);
 INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevINST, LPSTR lpCmdLine, INT nCmdShow) {
 	WNDCLASSEX wClass;
 	ZeroMemory(&wClass, sizeof(wClass));
@@ -35,13 +36,19 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevINST, LPSTR lpCmdLine, IN
 	{
 		MessageBox(NULL, "Class registration failed", NULL, MB_OK | MB_ICONINFORMATION);
 	};
+	int screenWidth = GetSystemMetrics(SM_CXSCREEN);
+	int screenHeight = GetSystemMetrics(SM_CYSCREEN);
+	int windowWidth = 1200;
+	int windowHeight = 1080;
+	int posX = (screenWidth - windowWidth) / 2;
+	int posY = (screenHeight - windowHeight) / 2;
 	HWND hwnd = CreateWindowEx(
 		NULL,
 		g_sz_WINDOW_CLASS,	
 		g_sz_WINDOW_CLASS,		
 		WS_OVERLAPPEDWINDOW,
-		CW_USEDEFAULT, CW_USEDEFAULT,
-		640, 480,
+		posX, posY,
+		windowWidth, windowHeight,
 		NULL,
 		NULL,		
 		hInstance,
@@ -70,6 +77,10 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		MessageBox(hwnd, "Cursor check", "Info", MB_OK | MB_ICONINFORMATION);
 		break;
 	case WM_COMMAND:
+	{
+		HWND hwnd;
+		CenterWindow(hwnd);
+	}
 		break;
 	case WM_DESTROY:
 		PostQuitMessage(0);
@@ -81,4 +92,16 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		return DefWindowProc(hwnd, uMsg, wParam, lParam);
 	}
 	return FALSE;
+}
+void CenterWindow(HWND &hwnd) {
+	RECT workArea;
+	SystemParametersInfo(SPI_GETWORKAREA, 0, &workArea, 0);
+	int screanWindth = workArea.right - workArea.left;
+	int screanHeight = workArea.bottom - workArea.top;
+	GetWindowRect(hwnd, &workArea);
+	int windowWidth = workArea.right - workArea.left;
+	int windowHeight = workArea.bottom - workArea.top;
+	int posX = workArea.left + (screanWindth - windowWidth) / 2;
+	int posY = workArea.top + (screanHeight - windowHeight) / 2;
+	SetWindowPos(hwnd, NULL, posX, posY, 0, 0, SWP_NOZORDER | SWP_NOSIZE | SWP_NOACTIVATE);
 }
