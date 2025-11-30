@@ -4,6 +4,7 @@
 CONST CHAR g_sz_WINDOW_CLASS[] = "My first window";
 LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 void CenterWindow(HWND &hwnd);
+void UpdateWindowTitle(HWND hwnd, int width, int height, int x, int y);
 INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevINST, LPSTR lpCmdLine, INT nCmdShow) {
 	WNDCLASSEX wClass;
 	ZeroMemory(&wClass, sizeof(wClass));
@@ -71,6 +72,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevINST, LPSTR lpCmdLine, IN
 };
 LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
+	static int width = 0, height = 0, x = 0, y = 0;
 	switch(uMsg)
 	{
 	case WM_CREATE:
@@ -81,6 +83,20 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		HWND hwnd;
 		CenterWindow(hwnd);
 	}
+		break;
+	case WM_MOVE:
+		if (hwnd != NULL) {
+			x = (int)(short)LOWORD(lParam);
+			y = (int)(short)HIWORD(lParam);
+			UpdateWindowTitle(hwnd, width, height, x, y);
+		}
+		break;
+	case WM_SIZE:
+		if (hwnd != NULL) {
+			width = LOWORD(lParam);
+			height = HIWORD(lParam);
+			UpdateWindowTitle(hwnd, width, height, x, y);
+		}
 		break;
 	case WM_DESTROY:
 		PostQuitMessage(0);
@@ -104,4 +120,10 @@ void CenterWindow(HWND &hwnd) {
 	int posX = workArea.left + (screanWindth - windowWidth) / 2;
 	int posY = workArea.top + (screanHeight - windowHeight) / 2;
 	SetWindowPos(hwnd, NULL, posX, posY, 0, 0, SWP_NOZORDER | SWP_NOSIZE | SWP_NOACTIVATE);
+}
+void UpdateWindowTitle(HWND hwnd, int width, int height, int x, int y) {
+	const INT SIZE = 256;
+	CHAR sz_title[SIZE]{};
+	wsprintf(sz_title, "Положение окна: %i и %i, (размер окна: %i и %i", width, height, x, y);
+	SendMessage(hwnd, WM_SETTEXT, 0, (LPARAM)sz_title);
 }
