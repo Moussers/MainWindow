@@ -20,19 +20,17 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevINST, LPSTR lpCmdLine, IN
 	wClass.hCursor = (HCURSOR)LoadImage
 	(
 		hInstance, 
-		"starcraft - original\\Vertical Resize",
+		"C:\\Users\\Sand\\source\\repos\\MainWindow\\starcraft-original\\Vertical Resize",
 		IMAGE_CURSOR,
 		LR_DEFAULTSIZE, LR_DEFAULTSIZE,
 		LR_LOADFROMFILE
 	);
 	//wClass.hCursor = LoadCursor(hInstance, MAKEINTRESOURCE(IDC_CURSOR1));
 	wClass.hbrBackground = (HBRUSH)(COLOR_WINDOW + 1);
-	
 	wClass.hInstance = hInstance;
 	wClass.lpszClassName = g_sz_WINDOW_CLASS;
 	wClass.lpszMenuName = NULL;
 	wClass.lpfnWndProc = WndProc;
-
 	if (RegisterClassEx(&wClass) == NULL)
 	{
 		MessageBox(NULL, "Class registration failed", NULL, MB_OK | MB_ICONINFORMATION);
@@ -76,7 +74,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 	switch(uMsg)
 	{
 	case WM_CREATE:
-		MessageBox(hwnd, "Cursor check", "Info", MB_OK | MB_ICONINFORMATION);
+		MessageBox(hwnd, "Прооверка курсора", "Инфо", MB_OK | MB_ICONINFORMATION);
 		break;
 	case WM_COMMAND:
 	{
