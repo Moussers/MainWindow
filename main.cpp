@@ -1,5 +1,8 @@
 ﻿#include<Windows.h>
+#include <cstdio>
 #include"resource.h"
+
+#define IDC_BUTTON 1000
 
 CONST CHAR g_sz_WINDOW_CLASS[] = "My first window";
 LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
@@ -20,7 +23,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevINST, LPSTR lpCmdLine, IN
 	wClass.hCursor = (HCURSOR)LoadImage
 	(
 		hInstance, 
-		"C:\\Users\\Sand\\source\\repos\\MainWindow\\starcraft-original\\Vertical Resize",
+		"starcraft-original\\Vertical Resize.ani",
 		IMAGE_CURSOR,
 		LR_DEFAULTSIZE, LR_DEFAULTSIZE,
 		LR_LOADFROMFILE
@@ -37,10 +40,10 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevINST, LPSTR lpCmdLine, IN
 	};
 	int screenWidth = GetSystemMetrics(SM_CXSCREEN);
 	int screenHeight = GetSystemMetrics(SM_CYSCREEN);
-	int windowWidth = 1200;
-	int windowHeight = 1080;
-	int posX = (screenWidth - windowWidth) / 2;
-	int posY = (screenHeight - windowHeight) / 2;
+	int windowWidth = screenWidth * 3 / 4;
+	int windowHeight = screenHeight * 3 / 4;
+	int posX = screenWidth / 8;
+	int posY = screenHeight / 8;
 	HWND hwnd = CreateWindowEx(
 		NULL,
 		g_sz_WINDOW_CLASS,	
@@ -73,28 +76,64 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 	static int width = 0, height = 0, x = 0, y = 0;
 	switch(uMsg)
 	{
-	case WM_CREATE:
-		MessageBox(hwnd, "Прооверка курсора", "Инфо", MB_OK | MB_ICONINFORMATION);
+	case WM_CREATE: 
+	{
+		HWND hButton = CreateWindowEx(
+			NULL,					//exSrtyle
+			"Button",				//Class
+			"Кнопка",				//Title
+			WS_CHILD | WS_VISIBLE,	//Style
+			10, 10,					//Position
+			150, 80,				//Size
+			hwnd,					//Parent
+			(HMENU)IDC_BUTTON,		//Для главного окна - это RessourceID главного меню, для дочернего окна 
+									//(элемента упралвения окна) - это ResourceID дочернего элемента.
+			GetModuleHandle(NULL),	//hInstance
+			NULL					//????
+			);
+	}
 		break;
 	case WM_COMMAND:
 	{
-		HWND hwnd;
-		CenterWindow(hwnd);
+		switch (LOWORD(wParam)) 
+		{
+		case IDC_BUTTON:
+			MessageBox(hwnd, "Проверка курсора", "Инфо", MB_OK | MB_ICONINFORMATION);
+			break;
+		}
+		/*HWND hwnd;
+		CenterWindow(hwnd);*/
 	}
 		break;
 	case WM_MOVE:
-		if (hwnd != NULL) {
+		/*if (hwnd != NULL) {
 			x = (int)(short)LOWORD(lParam);
 			y = (int)(short)HIWORD(lParam);
 			UpdateWindowTitle(hwnd, width, height, x, y);
 		}
-		break;
+		break;*/
 	case WM_SIZE:
-		if (hwnd != NULL) {
+		/*if (hwnd != NULL) {
 			width = LOWORD(lParam);
 			height = HIWORD(lParam);
 			UpdateWindowTitle(hwnd, width, height, x, y);
-		}
+		}*/
+	{
+		RECT window_rect = {};
+		GetWindowRect(hwnd, &window_rect);
+		CONST INT SIZE = 256;
+		CHAR sz_title[SIZE] = {};
+		wsprintf
+		(
+			sz_title,
+			"%s, Position: %ix%i, Size: %ix%i",
+			g_sz_WINDOW_CLASS,
+			window_rect.left, window_rect.top,
+			window_rect.right - window_rect.left,
+			window_rect.bottom - window_rect.top
+		);
+		SendMessage(hwnd, WM_SETTEXT, 0, (LPARAM)sz_title);
+	}
 		break;
 	case WM_DESTROY:
 		PostQuitMessage(0);
