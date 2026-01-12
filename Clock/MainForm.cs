@@ -15,12 +15,19 @@ namespace Clock
 {
     public partial class MainForm : Form
     {
+<<<<<<< HEAD
         private FontDialog fontDialog;
         private ColorDialog foregroundColorDialog;
         private ColorDialog backgroundColorDialog;
         private AddingAlarm addAlarm;
         private System.Timers.Timer timerCheck;
         private Dictionary<int, AlarmClock> dictAlarms;
+=======
+        FontDialog fontDialog;
+        ColorDialog foregroundColorDialog;
+        ColorDialog backgroundColorDialog;
+        AlarmsForm alarms;
+>>>>>>> temperary
         public MainForm()
         {
             InitializeComponent();
@@ -36,6 +43,7 @@ namespace Clock
             fontDialog = new FontDialog();
             foregroundColorDialog = new ColorDialog();
             backgroundColorDialog = new ColorDialog();
+            alarms = new AlarmsForm();
             LoadSettings();
             dictAlarms = new Dictionary<int, AlarmClock>();
             timerCheck = new System.Timers.Timer();
@@ -226,9 +234,14 @@ namespace Clock
 
         private void tsmiAlarms_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             addAlarm = new AddingAlarm(dictAlarms);
             addAlarm.ShowDialog();
         }
 
+=======
+            alarms.ShowDialog();
+        }
+>>>>>>> temperary
     }
 }
