@@ -44,7 +44,7 @@ namespace Clock
         {
             FileName = @"C:\\Users\\Sand\\source\\repos\\WinForms\\Clock\\Standart music\\Standart music in phone.mp3";
         }
-        public void check_time() 
+        public void checkTime() 
         {
             if (workingTimer)
             {
