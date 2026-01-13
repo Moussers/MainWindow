@@ -16,6 +16,13 @@ namespace Clock
         public AlarmsForm()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point
+                (
+                    Screen.PrimaryScreen.Bounds.Width - this.Width - 25,
+                    Screen.PrimaryScreen.Bounds.Height - this.Height - 560
+
+                );
             alarm = new AlarmDialog();
         }
 

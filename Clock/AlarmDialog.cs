@@ -16,6 +16,13 @@ namespace Clock
         public AlarmDialog()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+            this.Location = new Point
+                (
+                    Screen.PrimaryScreen.Bounds.Width - this.Width - 230,
+                    Screen.PrimaryScreen.Bounds.Height - this.Height - 610
+                );
+            //
             dtpDate.Enabled = false;
             fileDialog = new OpenFileDialog();
             fileDialog.Filter = "All sound files (*.mp3;*.flac;*.flacc)|*.mp3;*.flac;*.flacc|mp3 files (*.mp3)|*.mp3|Flac files (.flac)|*.flac;*.flacc";

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AlarmDialog));
             this.dtpDate = new System.Windows.Forms.DateTimePicker();
             this.dtpTime = new System.Windows.Forms.DateTimePicker();
             this.checkBoxUseDate = new System.Windows.Forms.CheckBox();
@@ -152,6 +153,7 @@
             this.Controls.Add(this.dtpTime);
             this.Controls.Add(this.dtpDate);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AlarmDialog";
             this.Text = "AlarmDialog";
             this.ResumeLayout(false);
