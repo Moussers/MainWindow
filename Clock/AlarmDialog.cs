@@ -22,7 +22,6 @@ namespace Clock
                     Screen.PrimaryScreen.Bounds.Width - this.Width - 230,
                     Screen.PrimaryScreen.Bounds.Height - this.Height - 610
                 );
-            //
             dtpDate.Enabled = false;
             fileDialog = new OpenFileDialog();
             fileDialog.Filter = "All sound files (*.mp3;*.flac;*.flacc;*.ape;*.wav;*.ogg;*.wma)" +
