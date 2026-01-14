@@ -25,7 +25,11 @@ namespace Clock
             //
             dtpDate.Enabled = false;
             fileDialog = new OpenFileDialog();
-            fileDialog.Filter = "All sound files (*.mp3;*.flac;*.flacc)|*.mp3;*.flac;*.flacc|mp3 files (*.mp3)|*.mp3|Flac files (.flac)|*.flac;*.flacc";
+            fileDialog.Filter = "All sound files (*.mp3;*.flac;*.flacc;*.ape;*.wav;*.ogg;*.wma)" +
+                "|*.mp3;*.flac;*.flacc;*.ape;*.wav;*.ogg;*.wma|" +
+                "mp3 files (*.mp3)|*.mp3|Flac files (.flac)|" +
+                "*.flac;*.flacc|APE files (.ape)|*.ape|WAV files (.wav)|" +
+                "*.wav|OGG files (.ogg)|*.ogg|WMA files (.wma)|*.wma";
         }
 
         private void checkBoxUseDate_CheckedChanged(object sender, EventArgs e)
