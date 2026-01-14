@@ -44,5 +44,31 @@ namespace Clock
                 labelFilename.Text = fileDialog.FileName;
             }
         }
+
+        private void clbWeekDays_ItemCheck(object sender, ItemCheckEventArgs e)
+        {
+        }
+
+        private void clbWeekDays_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            for (int i = 0; i < clbWeekDays.CheckedItems.Count; i++)
+                Console.Write($"{clbWeekDays.CheckedItems[i]}\t");
+            Console.WriteLine();
+            byte days = 0;
+            for (int i = 0; i < clbWeekDays.CheckedItems.Count; i++)
+            {
+                days |= (byte)(1 << clbWeekDays.CheckedIndices[i]);
+                Console.Write($"{clbWeekDays.CheckedIndices[i]}\t");
+            }
+            Console.WriteLine($"Days mask: {days}");
+            Console.WriteLine("\n-----------------------------------\n");
+        }
+        byte GetDyasMask() 
+        {
+            byte days = 0;
+            for (int i = 0; i < clbWeekDays.CheckedItems.Count; i++)
+                days |= (byte)(1 << clbWeekDays.CheckedIndices[i]);
+            return days;
+        }
     }
 }
