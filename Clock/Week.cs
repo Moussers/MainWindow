@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clock
 {
-    internal class Week
+    public class Week
     {
         static readonly string[] NAMES = { "Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"};
         byte days;
