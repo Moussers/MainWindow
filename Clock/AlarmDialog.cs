@@ -50,7 +50,9 @@ namespace Clock
         private void clbWeekDays_SelectedIndexChanged(object sender, EventArgs e)
         {
             for (int i = 0; i < clbWeekDays.CheckedItems.Count; i++)
+            {
                 Console.Write($"{clbWeekDays.CheckedItems[i]}\t");
+            }
             Console.WriteLine();
             byte days = 0;
             for (int i = 0; i < clbWeekDays.CheckedItems.Count; i++)
@@ -75,6 +77,11 @@ namespace Clock
             Alarm.Time = dtpDate.Value;
             Alarm.Days = new Week(GetDyasMask());
             Alarm.Filename = labelFilename.Text;
+        }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

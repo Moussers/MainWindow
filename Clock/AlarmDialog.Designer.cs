@@ -52,13 +52,17 @@
             // 
             // dtpTime
             // 
-            this.dtpTime.CustomFormat = "HH:mm:ss";
+            this.dtpTime.AllowDrop = true;
+            this.dtpTime.CustomFormat = "HH:MM:ss";
+            this.dtpTime.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::Clock.Properties.Settings.Default, "ab", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.dtpTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dtpTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpTime.Location = new System.Drawing.Point(215, 48);
             this.dtpTime.Name = "dtpTime";
+            this.dtpTime.ShowUpDown = true;
             this.dtpTime.Size = new System.Drawing.Size(160, 31);
             this.dtpTime.TabIndex = 1;
+            this.dtpTime.Value = global::Clock.Properties.Settings.Default.ab;
             // 
             // checkBoxUseDate
             // 
@@ -140,6 +144,7 @@
             this.buttonCancel.TabIndex = 8;
             this.buttonCancel.Text = "Cancel";
             this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // AlarmDialog
             // 
