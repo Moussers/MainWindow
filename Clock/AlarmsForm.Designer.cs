@@ -36,9 +36,10 @@
             // 
             // listBoxAlarms
             // 
-            resources.ApplyResources(this.listBoxAlarms, "listBoxAlarms");
             this.listBoxAlarms.FormattingEnabled = true;
+            resources.ApplyResources(this.listBoxAlarms, "listBoxAlarms");
             this.listBoxAlarms.Name = "listBoxAlarms";
+            this.listBoxAlarms.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBoxAlarms_MouseDoubleClick);
             // 
             // buttonAdd
             // 

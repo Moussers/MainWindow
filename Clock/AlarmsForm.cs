@@ -33,5 +33,23 @@ namespace Clock
                 listBoxAlarms.Items.Add(alarm.Alarm);
             }
         }
+
+        private void listBoxAlarms_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            if (listBoxAlarms.SelectedItem == null) 
+            {
+                return;
+            }
+            Alarm alarm = listBoxAlarms.SelectedItem as Alarm;
+            if (alarm == null)
+            {
+                MessageBox.Show("Выбранный элемент не является будильником", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                AlarmDialog chengingAlarm = new AlarmDialog();
+                chengingAlarm.ShowDialog();
+            }
+        }
     }
 }
