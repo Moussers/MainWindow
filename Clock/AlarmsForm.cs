@@ -28,27 +28,24 @@ namespace Clock
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
+            AlarmDialog alarm = new AlarmDialog();
             if (alarm.ShowDialog() == DialogResult.OK)
             {
-                listBoxAlarms.Items.Add(alarm.Alarm);
+                listBoxAlarms.Items.Add(new Alarm(alarm.Alarm));
             }
         }
 
         private void listBoxAlarms_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            if (listBoxAlarms.SelectedItem == null) 
+            if (listBoxAlarms.Items.Count > 0 && listBoxAlarms.SelectedItems != null)
             {
-                return;
-            }
-            Alarm alarm = listBoxAlarms.SelectedItem as Alarm;
-            if (alarm == null)
-            {
-                MessageBox.Show("Выбранный элемент не является будильником", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                AlarmDialog alarm = new AlarmDialog(listBoxAlarms.SelectedItem as Alarm);
+                alarm.ShowDialog();
+                listBoxAlarms.Refresh();
             }
             else
             {
-                AlarmDialog chengingAlarm = new AlarmDialog();
-                chengingAlarm.ShowDialog();
+                buttonAdd_Click(sender, e);
             }
         }
     }

@@ -32,7 +32,23 @@ namespace Clock
                 "*.wav|OGG files (.ogg)|*.ogg|WMA files (.wma)|*.wma";
             Alarm = new Alarm();
         }
-
+        public AlarmDialog(Alarm alarm) : this()
+        {
+            Alarm = alarm;
+            Extract();
+        }
+        void Extract()
+        {
+            if (Alarm.Date != DateTime.MaxValue) 
+            {
+                dtpDate.Value = Alarm.Date;
+                checkBoxUseDate.Checked = true;
+            }
+            dtpDate.Value = Alarm.Date; //Ошибка Value of '12/31/9999 11:59:59 PM' is not valid for 'Value'. 'Value' should be between 'MinDate' and 'MaxDate'.
+            dtpTime.Value = Alarm.Time;
+            Alarm.Days.Extract(clbWeekDays);
+            labelFilename.Text = Alarm.Filename;
+        }
         private void checkBoxUseDate_CheckedChanged(object sender, EventArgs e)
         {
             dtpDate.Enabled = (sender as CheckBox).Checked;
