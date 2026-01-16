@@ -44,7 +44,7 @@ namespace Clock
                 dtpDate.Value = Alarm.Date;
                 checkBoxUseDate.Checked = true;
             }
-            dtpTime.Value = Alarm.Time;
+            dtpTime.Value = DateTime.Now.Date + Alarm.Time;
             if (checkBoxUseDate.Checked) Alarm.Days = new Week(0);
             else Alarm.Days.Extract(clbWeekDays);
             labelFilename.Text = Alarm.Filename;
@@ -90,7 +90,7 @@ namespace Clock
         private void buttonOK_Click(object sender, EventArgs e)
         {
             Alarm.Date = checkBoxUseDate.Checked ? dtpDate.Value : DateTime.MaxValue;
-            Alarm.Time = dtpDate.Value;
+            Alarm.Time = dtpDate.Value.TimeOfDay;
             Alarm.Days = new Week(checkBoxUseDate.Checked ? (byte)0 : GetDyasMask());
             Alarm.Filename = labelFilename.Text;
         }

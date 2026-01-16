@@ -12,7 +12,8 @@ namespace Clock
 {
     public partial class AlarmsForm : Form
     {
-        AlarmDialog alarm;
+        //AlarmDialog alarm;
+        public ListBox List { get => listBoxAlarms; }
         public AlarmsForm()
         {
             InitializeComponent();
@@ -23,7 +24,7 @@ namespace Clock
                     Screen.PrimaryScreen.Bounds.Height - this.Height - 560
 
                 );
-            alarm = new AlarmDialog();
+            //alarm = new AlarmDialog();
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
