@@ -39,14 +39,14 @@ namespace Clock
         }
         void Extract()
         {
-            if (Alarm.Date != DateTime.MaxValue) 
+            if (Alarm.Date != DateTime.MaxValue)
             {
                 dtpDate.Value = Alarm.Date;
                 checkBoxUseDate.Checked = true;
             }
-            dtpDate.Value = Alarm.Date; //Ошибка Value of '12/31/9999 11:59:59 PM' is not valid for 'Value'. 'Value' should be between 'MinDate' and 'MaxDate'.
             dtpTime.Value = Alarm.Time;
-            Alarm.Days.Extract(clbWeekDays);
+            if (checkBoxUseDate.Checked) Alarm.Days = new Week(0);
+            else Alarm.Days.Extract(clbWeekDays);
             labelFilename.Text = Alarm.Filename;
         }
         private void checkBoxUseDate_CheckedChanged(object sender, EventArgs e)
@@ -91,7 +91,7 @@ namespace Clock
         {
             Alarm.Date = checkBoxUseDate.Checked ? dtpDate.Value : DateTime.MaxValue;
             Alarm.Time = dtpDate.Value;
-            Alarm.Days = new Week(GetDyasMask());
+            Alarm.Days = new Week(checkBoxUseDate.Checked ? (byte)0 : GetDyasMask());
             Alarm.Filename = labelFilename.Text;
         }
 
