@@ -90,7 +90,7 @@ namespace Clock
         private void buttonOK_Click(object sender, EventArgs e)
         {
             Alarm.Date = checkBoxUseDate.Checked ? dtpDate.Value : DateTime.MaxValue;
-            Alarm.Time = dtpDate.Value.TimeOfDay;
+            Alarm.Time = dtpTime.Value.TimeOfDay;
             Alarm.Days = new Week(checkBoxUseDate.Checked ? (byte)0 : GetDyasMask());
             Alarm.Filename = labelFilename.Text;
         }

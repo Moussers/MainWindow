@@ -25,7 +25,7 @@ namespace Clock.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("01/15/2026 19:49:47")]
+        [global::System.Configuration.DefaultSettingValueAttribute("01/16/2026 23:31:40")]
         public global::System.DateTime ab {
             get {
                 return ((global::System.DateTime)(this["ab"]));

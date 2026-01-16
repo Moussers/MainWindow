@@ -127,7 +127,7 @@ namespace Clock
             }
             if (
                 alarm != null
-                && alarm.Time.TotalHours == DateTime.Now.Hour
+                && alarm.Time.Hours == DateTime.Now.Hour
                 && alarm.Time.Minutes == DateTime.Now.Minute
                 && alarm.Time.Seconds == DateTime.Now.Second
                 )
@@ -137,7 +137,7 @@ namespace Clock
         }
         Alarm FindNextAlarm()
         {
-            Alarm[] actualAlarms =  alarms.List.Items.Cast<Alarm>().Where(a => a.Time > DateTime.Now.TimeOfDay).ToArray();
+            Alarm[] actualAlarms = alarms.List.Items.Cast<Alarm>().Where(a => a.Time > DateTime.Now.TimeOfDay).ToArray();
             return actualAlarms.Min();
         }
         private void btnHideControls_Click(object sender, EventArgs e)
