@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,13 +30,32 @@ namespace Clock
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            AlarmDialog alarm = new AlarmDialog();
-            if (alarm.ShowDialog() == DialogResult.OK)
+            AlarmDialog alarmDialog = new AlarmDialog();
+            if (alarmDialog.ShowDialog() == DialogResult.OK)
             {
-                listBoxAlarms.Items.Add(new Alarm(alarm.Alarm));
+                listBoxAlarms.Items.Add(new Alarm(alarmDialog.Alarm));
             }
         }
-
+        public void SaveAlarmList() 
+        {
+            Directory.SetCurrentDirectory($"{Application.ExecutablePath}\\..\\..\\..");
+            StreamWriter writer = new StreamWriter("Alarms.ini");
+            for (int i = 0; i < listBoxAlarms.Items.Count; ++i)
+            {
+                Alarm alarm = listBoxAlarms.Items[i] as Alarm;
+                if (alarm != null)
+                {
+                    writer.WriteLine(alarm.Date.Year.ToString());
+                    writer.WriteLine(alarm.Date.Month.ToString());
+                    writer.WriteLine(alarm.Date.Day.ToString());
+                    writer.WriteLine(alarm.Date.Hour.ToString());
+                    writer.WriteLine(alarm.Date.Minute.ToString());
+                    writer.WriteLine(alarm.Date.Second.ToString());
+                    writer.WriteLine(alarm.Days.ToString());
+                    writer.WriteLine(alarm.Filename.ToString());
+                }
+            }
+        }
         private void listBoxAlarms_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             if (listBoxAlarms.Items.Count > 0 && listBoxAlarms.SelectedItems != null)
