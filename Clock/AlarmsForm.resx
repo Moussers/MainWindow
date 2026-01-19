@@ -165,7 +165,7 @@
     <value>1</value>
   </data>
   <data name="buttonDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>713, 51</value>
+    <value>713, 42</value>
   </data>
   <data name="buttonDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>

@@ -49,5 +49,11 @@ namespace Clock
                 buttonAdd_Click(sender, e);
             }
         }
+
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+            int index = listBoxAlarms.SelectedIndex;
+            listBoxAlarms.Items.RemoveAt(index);
+        }
     }
 }
