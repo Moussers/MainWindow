@@ -13,7 +13,7 @@ namespace Clock
 {
     public partial class AlarmsForm : Form
     {
-        //AlarmDialog alarm;
+        private int NumberAlarms { get; set; }
         public ListBox List { get => listBoxAlarms; }
         public AlarmsForm()
         {
@@ -36,11 +36,20 @@ namespace Clock
                 listBoxAlarms.Items.Add(new Alarm(alarmDialog.Alarm));
             }
         }
-        public void SaveAlarmList() 
+        public void ReadSettingsAalrm()
+        {
+            listBoxAlarms.Items.Clear();
+            Directory.SetCurrentDirectory($"{Application.ExecutablePath}\\..\\..\\..");
+            StreamReader reader = new StreamReader("Alarms.ini");
+
+        }
+        public void SaveSettingsAalarm() 
         {
             Directory.SetCurrentDirectory($"{Application.ExecutablePath}\\..\\..\\..");
             StreamWriter writer = new StreamWriter("Alarms.ini");
-            for (int i = 0; i < listBoxAlarms.Items.Count; ++i)
+            NumberAlarms = listBoxAlarms.Items.Count;
+            writer.WriteLine(NumberAlarms);
+            for (int i = 0; i < NumberAlarms; ++i)
             {
                 Alarm alarm = listBoxAlarms.Items[i] as Alarm;
                 if (alarm != null)
@@ -55,6 +64,7 @@ namespace Clock
                     writer.WriteLine(alarm.Filename.ToString());
                 }
             }
+            writer.Close();
         }
         private void listBoxAlarms_MouseDoubleClick(object sender, MouseEventArgs e)
         {

@@ -233,7 +233,7 @@ namespace Clock
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             SaveSettings();
-            alarms.SaveAlarmList();
+            alarms.SaveSettingsAalarm();
         }
 
         private void tsmiAlarms_Click(object sender, EventArgs e)
