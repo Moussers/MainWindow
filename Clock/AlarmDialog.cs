@@ -31,6 +31,10 @@ namespace Clock
                 "*.flac;*.flacc|APE files (.ape)|*.ape|WAV files (.wav)|" +
                 "*.wav|OGG files (.ogg)|*.ogg|WMA files (.wma)|*.wma";
             Alarm = new Alarm();
+            for (int i = 0; i < 7; ++i)
+            {
+                clbWeekDays.SetItemChecked(i, true);
+            }
         }
         public AlarmDialog(Alarm alarm) : this()
         {
