@@ -1,12 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Clock
@@ -25,7 +20,7 @@ namespace Clock
                     Screen.PrimaryScreen.Bounds.Height - this.Height - 560
 
                 );
-            //alarm = new AlarmDialog();
+            //ReadSettingsAalrm();
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
@@ -41,7 +36,26 @@ namespace Clock
             listBoxAlarms.Items.Clear();
             Directory.SetCurrentDirectory($"{Application.ExecutablePath}\\..\\..\\..");
             StreamReader reader = new StreamReader("Alarms.ini");
-
+            Alarm alarm = new Alarm();
+            if (int.TryParse(reader.ReadLine(), out int alarms))
+            {
+                NumberAlarms = alarms;
+            }
+            for (int i = 0; i < NumberAlarms; ++i) 
+            {
+                if (
+                    int.TryParse(reader.ReadLine(), out int hours) &&
+                    int.TryParse(reader.ReadLine(), out int minutes) &&
+                    int.TryParse(reader.ReadLine(), out int seconds) &&
+                    int.TryParse(reader.ReadLine(), out int year) &&
+                    int.TryParse(reader.ReadLine(), out int month) &&
+                    int.TryParse(reader.ReadLine(), out int day)
+                    ) 
+                {
+                    alarm.Time = new TimeSpan(hours, minutes, seconds);
+                    alarm.Date = new DateTime(year, month, day);
+                }
+            }
         }
         public void SaveSettingsAalarm() 
         {
