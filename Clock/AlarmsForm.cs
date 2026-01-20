@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
@@ -20,7 +21,7 @@ namespace Clock
                     Screen.PrimaryScreen.Bounds.Height - this.Height - 560
 
                 );
-            //ReadSettingsAalrm();
+            ReadSettingsAalrm();
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
@@ -36,24 +37,33 @@ namespace Clock
             listBoxAlarms.Items.Clear();
             Directory.SetCurrentDirectory($"{Application.ExecutablePath}\\..\\..\\..");
             StreamReader reader = new StreamReader("Alarms.ini");
-            Alarm alarm = new Alarm();
             if (int.TryParse(reader.ReadLine(), out int alarms))
             {
                 NumberAlarms = alarms;
             }
             for (int i = 0; i < NumberAlarms; ++i) 
             {
+                Alarm alarm = new Alarm();
                 if (
-                    int.TryParse(reader.ReadLine(), out int hours) &&
-                    int.TryParse(reader.ReadLine(), out int minutes) &&
-                    int.TryParse(reader.ReadLine(), out int seconds) &&
                     int.TryParse(reader.ReadLine(), out int year) &&
                     int.TryParse(reader.ReadLine(), out int month) &&
-                    int.TryParse(reader.ReadLine(), out int day)
+                    int.TryParse(reader.ReadLine(), out int day) &&
+                    int.TryParse(reader.ReadLine(), out int hours) &&
+                    int.TryParse(reader.ReadLine(), out int minutes) &&
+                    int.TryParse(reader.ReadLine(), out int seconds) && 
+                    byte.TryParse(reader.ReadLine(), out byte days)
                     ) 
                 {
+                    if (year == 9999) 
+                    {
+                        year = DateTime.Now.Year;
+                    }
                     alarm.Time = new TimeSpan(hours, minutes, seconds);
                     alarm.Date = new DateTime(year, month, day);
+                    alarm.Days = new Week(days);
+                    alarm.Filename = reader.ReadLine();
+                    listBoxAlarms.Items.Add(alarm);
+                
                 }
             }
         }
@@ -74,7 +84,7 @@ namespace Clock
                     writer.WriteLine(alarm.Date.Hour.ToString());
                     writer.WriteLine(alarm.Date.Minute.ToString());
                     writer.WriteLine(alarm.Date.Second.ToString());
-                    writer.WriteLine(alarm.Days.ToString());
+                    writer.WriteLine((alarm.Days.GetDays()).ToString());
                     writer.WriteLine(alarm.Filename.ToString());
                 }
             }
