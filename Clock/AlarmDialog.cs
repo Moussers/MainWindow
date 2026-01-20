@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -34,6 +35,16 @@ namespace Clock
             for (int i = 0; i < 7; ++i)
             {
                 clbWeekDays.SetItemChecked(i, true);
+            }
+        }
+        private void SetCurrentAlarm(int alarmIndex)
+        {
+            for (int i = 0; i < 7; ++i)
+            {
+                if (i == alarmIndex)
+                {
+                    clbWeekDays.SetItemCheckState(alarmIndex, CheckState.Checked);
+                }
             }
         }
         public AlarmDialog(Alarm alarm) : this()
@@ -93,10 +104,11 @@ namespace Clock
 
         private void buttonOK_Click(object sender, EventArgs e)
         {
-            //if (clbWeekDays.CheckedIndices.Count == 0)
-            //{
-            //    MessageBox.Show(this, "Выбирите хотя бы один день недели", "Ёжж..", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            //}
+            if (clbWeekDays.CheckedIndices.Count == 0)
+            {
+                DayOfWeek currentDay = DateTime.Now.DayOfWeek;
+                SetCurrentAlarm((int)currentDay);
+            }
             //else this.buttonOK.DialogResult = DialogResult.OK;
             Alarm.Date = checkBoxUseDate.Checked ? dtpDate.Value : DateTime.MaxValue;
             Alarm.Time = dtpTime.Value.TimeOfDay;
