@@ -97,6 +97,8 @@ namespace Clock
             Alarm.Date = checkBoxUseDate.Checked ? dtpDate.Value : DateTime.MaxValue;
             Alarm.Time = dtpTime.Value.TimeOfDay;
             Alarm.Days = new Week(GetDyasMask());
+            if (Alarm.Days.GetMask() == 0) Alarm.Days = new Week(127);
+            Alarm.Filename = labelFilename.Text;
         }
         private void buttonCancel_Click(object sender, EventArgs e)
         {

@@ -25,6 +25,7 @@ namespace Clock
                 }
             }
         }
+        public byte GetMask() => days;
         public bool Contains(byte day) 
         {
             if (day == 0) day = 7;
@@ -46,10 +47,6 @@ namespace Clock
             | OR - побитовое сложение
             -----------------------------------------------------
              */
-        }
-        public byte GetDays () 
-        { 
-            return days;
         }
     }
 }

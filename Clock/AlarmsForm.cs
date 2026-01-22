@@ -84,7 +84,7 @@ namespace Clock
                     writer.WriteLine(alarm.Date.Hour.ToString());
                     writer.WriteLine(alarm.Date.Minute.ToString());
                     writer.WriteLine(alarm.Date.Second.ToString());
-                    writer.WriteLine((alarm.Days.GetDays()).ToString());
+                    writer.WriteLine((alarm.Days.GetMask()).ToString());
                     writer.WriteLine(alarm.Filename.ToString());
                 }
             }
