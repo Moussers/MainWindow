@@ -4,13 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Win32;
 using System.IO;
 using System.Runtime.InteropServices;
+using AxWMPLib;
 
 namespace Clock
 {
@@ -53,26 +51,19 @@ namespace Clock
         {
             Directory.SetCurrentDirectory($"{Application.ExecutablePath}\\..\\..\\..");
             StreamWriter writer = new StreamWriter("Settings.ini");
-
             writer.WriteLine(this.Location.X);
             writer.WriteLine(this.Location.Y);
-
             writer.WriteLine(tsmiTopmost.Checked);
             writer.WriteLine(tsmiShowControls.Checked);
             writer.WriteLine(tsmiShowConsole.Checked);
-
             writer.WriteLine(tsmiShowDate.Checked);
             writer.WriteLine(tsmiShowWeekday.Checked);
             writer.WriteLine(tsmiAutoStart.Checked);
-
             writer.WriteLine(labelTime.BackColor.ToArgb());
             writer.WriteLine(labelTime.ForeColor.ToArgb());
-
             writer.WriteLine(fontDialog.FileName);
             writer.WriteLine(labelTime.Font.Size);
-
             writer.Close();
-
            //System.Diagnostics.Process.Start("notepad", "Settings.ini");
         }
         void LoadSettings()

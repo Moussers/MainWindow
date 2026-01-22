@@ -37,16 +37,6 @@ namespace Clock
                 clbWeekDays.SetItemChecked(i, true);
             }
         }
-        private void SetCurrentAlarm(int alarmIndex)
-        {
-            for (int i = 0; i < 7; ++i)
-            {
-                if (i == alarmIndex)
-                {
-                    clbWeekDays.SetItemCheckState(alarmIndex, CheckState.Checked);
-                }
-            }
-        }
         public AlarmDialog(Alarm alarm) : this()
         {
             Alarm = alarm;
@@ -104,23 +94,10 @@ namespace Clock
 
         private void buttonOK_Click(object sender, EventArgs e)
         {
-            if (clbWeekDays.CheckedIndices.Count == 0)
-            {
-                DayOfWeek currentDay = DateTime.Now.DayOfWeek;
-                SetCurrentAlarm((int)currentDay);
-            }
-            //else this.buttonOK.DialogResult = DialogResult.OK;
             Alarm.Date = checkBoxUseDate.Checked ? dtpDate.Value : DateTime.MaxValue;
             Alarm.Time = dtpTime.Value.TimeOfDay;
             Alarm.Days = new Week(GetDyasMask());
-            //Alarm.Days = new Week(checkBoxUseDate.Checked ? (byte)0 : GetDyasMask());
-            Alarm.Filename = labelFilename.Text;
-            
         }
-        //public void DropDialogResult()
-        //{
-        //    this.buttonOK.DialogResult = DialogResult.OK;
-        //}
         private void buttonCancel_Click(object sender, EventArgs e)
         {
             this.Close();
