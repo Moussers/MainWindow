@@ -37,6 +37,9 @@ namespace Clock
             alarms = new AlarmsForm();
             alarm = null;
             LoadSettings();
+            axWindowsMediaPlayer.Visible = false;
+            //AllocConsole();
+            //Console.WriteLine(axWindowsMediaPlayer.Visible);
         }
         void SetVisibility(bool visible) 
         {
@@ -127,13 +130,31 @@ namespace Clock
                 && alarm.Time.Minutes == DateTime.Now.Minute
                 && alarm.Time.Seconds == DateTime.Now.Second
                 )
-                MessageBox.Show(alarm.ToString());
+                PlayAlarm();
+                //MessageBox.Show(alarm.ToString());
             if(DateTime.Now.Second % 5 == 0) alarm = FindNextAlarm();
             notifyIcon.Text = labelTime.Text;
         }
         bool CompareDates(DateTime date1, DateTime date2)
         {
             return date1.Year == date2.Year && date1.Month == date2.Month && date1.Day == date2.Day;
+        }
+        void PlayAlarm()
+        {
+            axWindowsMediaPlayer.URL = alarm.Filename;
+            axWindowsMediaPlayer.settings.volume = 100;
+            axWindowsMediaPlayer.Ctlcontrols.play();
+            axWindowsMediaPlayer.Visible = true;
+        }
+        void SetPlayerInvisible(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
+        {
+            if (
+                axWindowsMediaPlayer.playState == WMPLib.WMPPlayState.wmppsMediaEnded ||
+                axWindowsMediaPlayer.playState == WMPLib.WMPPlayState.wmppsStopped
+                )
+            {
+                axWindowsMediaPlayer.Visible = false;
+            }
         }
         Alarm FindNextAlarm()
         {

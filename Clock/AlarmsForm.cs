@@ -63,7 +63,6 @@ namespace Clock
                     alarm.Days = new Week(days);
                     alarm.Filename = reader.ReadLine();
                     listBoxAlarms.Items.Add(alarm);
-                
                 }
             }
         }
