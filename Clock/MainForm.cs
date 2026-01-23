@@ -141,8 +141,8 @@ namespace Clock
         }
         void PlayAlarm()
         {
-            axWindowsMediaPlayer.URL = alarm.Filename;
-            axWindowsMediaPlayer.settings.volume = 100;
+            axWindowsMediaPlayer.URL = alarm.Filename;          //Чтобы при работе timer_tick player становился видимым и музыка играла то нам 
+            axWindowsMediaPlayer.settings.volume = 100;         //нужно снимать галочку с пункта у устанваливать на определленную дату
             axWindowsMediaPlayer.Ctlcontrols.play();
             axWindowsMediaPlayer.Visible = true;
         }

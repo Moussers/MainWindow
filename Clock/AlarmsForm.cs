@@ -80,9 +80,9 @@ namespace Clock
                     writer.WriteLine(alarm.Date.Year.ToString());
                     writer.WriteLine(alarm.Date.Month.ToString());
                     writer.WriteLine(alarm.Date.Day.ToString());
-                    writer.WriteLine(alarm.Date.Hour.ToString());
-                    writer.WriteLine(alarm.Date.Minute.ToString());
-                    writer.WriteLine(alarm.Date.Second.ToString());
+                    writer.WriteLine(alarm.Time.Hours.ToString());
+                    writer.WriteLine(alarm.Time.Minutes.ToString());
+                    writer.WriteLine(alarm.Time.Seconds.ToString());
                     writer.WriteLine((alarm.Days.GetMask()).ToString());
                     writer.WriteLine(alarm.Filename.ToString());
                 }
