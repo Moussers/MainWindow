@@ -15,7 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_7A8C0866A7DE4DA3A33E29759198CE8C"
+        "MsmKey" = "8:_5D7D0095A2C574A856EF5810CC4964C4"
+        "OwnerKey" = "8:_A592683E07894CF5BFB3AA5376DE44F1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A592683E07894CF5BFB3AA5376DE44F1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -28,7 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_ABE465BA784C53E7F5E01C45A3ECFF00"
-        "OwnerKey" = "8:_7A8C0866A7DE4DA3A33E29759198CE8C"
+        "OwnerKey" = "8:_A592683E07894CF5BFB3AA5376DE44F1"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -40,25 +46,31 @@
         "Entry"
         {
         "MsmKey" = "8:_D150BC8239608ACCB036FF65D7A0A455"
-        "OwnerKey" = "8:_7A8C0866A7DE4DA3A33E29759198CE8C"
+        "OwnerKey" = "8:_A592683E07894CF5BFB3AA5376DE44F1"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_ABE465BA784C53E7F5E01C45A3ECFF00"
+        "OwnerKey" = "8:_5D7D0095A2C574A856EF5810CC4964C4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7A8C0866A7DE4DA3A33E29759198CE8C"
+        "OwnerKey" = "8:_A592683E07894CF5BFB3AA5376DE44F1"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_D150BC8239608ACCB036FF65D7A0A455"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_ABE465BA784C53E7F5E01C45A3ECFF00"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -79,6 +91,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -95,6 +115,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -124,20 +152,20 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7A8C0866A7DE4DA3A33E29759198CE8C"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5D7D0095A2C574A856EF5810CC4964C4"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Clock, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_7A8C0866A7DE4DA3A33E29759198CE8C"
+                    "_5D7D0095A2C574A856EF5810CC4964C4"
                     {
-                    "Name" = "8:Clock.exe"
+                    "Name" = "8:System.Net.Http.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:..\\Clock\\obj\\Debug\\Clock.exe"
+            "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_BCA2A95917F54215B9F0737AB66FD6B3"
@@ -152,7 +180,7 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_ABE465BA784C53E7F5E01C45A3ECFF00"
@@ -307,7 +335,7 @@
         "ARPHELPLINK" = "8:"
         "Title" = "8:ClockSetup"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:SandCat"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -414,6 +442,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2F0345F39B0B468898A41311082D211C"
+            {
+            "Name" = "8:ClockSetup"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_A592683E07894CF5BFB3AA5376DE44F1"
+            "Folder" = "8:_CA7F8D33D1A448AC9A5D850A4FB81CC2"
+            "WorkingFolder" = "8:_BCA2A95917F54215B9F0737AB66FD6B3"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A9C36D41167647C68979DC11C314B469"
+            {
+            "Name" = "8:ClockSetup"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_A592683E07894CF5BFB3AA5376DE44F1"
+            "Folder" = "8:_533780B22E444497BB3F6813AE66AE41"
+            "WorkingFolder" = "8:_BCA2A95917F54215B9F0737AB66FD6B3"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
@@ -813,6 +869,34 @@
         }
         "ProjectOutput"
         {
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A592683E07894CF5BFB3AA5376DE44F1"
+            {
+            "SourcePath" = "8:..\\Clock\\obj\\Debug\\Clock.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_BCA2A95917F54215B9F0737AB66FD6B3"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{9EA78A52-AB67-408D-96A4-BD600ABCBBAD}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
         }
     }
 }
