@@ -87,6 +87,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_955FBC3203AD4FEA9745FF425724E104"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_9836CD011FE4C614D752FB193FDE64EF"
         "OwnerKey" = "8:_BDF70C9D660C1A3DA3251827E362F806"
         "MsmSig" = "8:_UNDEFINED"
@@ -160,6 +166,12 @@
         "Entry"
         {
         "MsmKey" = "8:_E83A973970B84B2D85BD3CE1CE7A1D1F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EE79FDED98F1428AB65BD5101DBA30EB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -513,6 +525,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_955FBC3203AD4FEA9745FF425724E104"
+            {
+            "SourcePath" = "8:..\\Clock\\Alarms.ini"
+            "TargetName" = "8:Alarms.ini"
+            "Tag" = "8:"
+            "Folder" = "8:_439BEB6BE889425CAD1AA18A2572AF3A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9836CD011FE4C614D752FB193FDE64EF"
             {
             "SourcePath" = "8:wmp.dll"
@@ -775,6 +807,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EE79FDED98F1428AB65BD5101DBA30EB"
+            {
+            "SourcePath" = "8:..\\Clock\\Settings.ini"
+            "TargetName" = "8:Settings.ini"
+            "Tag" = "8:"
+            "Folder" = "8:_439BEB6BE889425CAD1AA18A2572AF3A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EFA0C0ADD3B24D49AFBBFB63EBF4068B"
             {
             "SourcePath" = "8:..\\Clock\\Fonts\\digital-7 (italic).ttf"
@@ -925,7 +977,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ClockSetup"
         "ProductCode" = "8:{E422695A-FEE6-4FB7-91CB-0F915EEFBC8E}"
-        "PackageCode" = "8:{78743682-8A22-4F45-9289-096E6162C584}"
+        "PackageCode" = "8:{F87754A6-FD28-444B-A2D3-47CDB3496E83}"
         "UpgradeCode" = "8:{1E0103E7-3F46-42F5-B4D7-172683B33066}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
