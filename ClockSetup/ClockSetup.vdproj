@@ -51,6 +51,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_285E41917EA8421AAC1A6A34E9CC1666"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_31BECAA625B64D129EF62EF713F285FA"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -59,6 +65,12 @@
         {
         "MsmKey" = "8:_3378AF27213E46758EE1B844A827DFBA"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3657FA7A2F9799CAD80ECCE7068D83C2"
+        "OwnerKey" = "8:_1AAB9C88C1344E039176B88A6859922A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -81,6 +93,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_6B5209302D42B56B6FB2835EE4AB960F"
+        "OwnerKey" = "8:_BCEC3DA2B2FA062B51C61278E1048498"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_6DDF8D7FF0894F36ABE8E083DBCF877D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -93,25 +111,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_9836CD011FE4C614D752FB193FDE64EF"
-        "OwnerKey" = "8:_BDF70C9D660C1A3DA3251827E362F806"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_9D2C3A638677418D90893744F4B35D30"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_BDF70C9D660C1A3DA3251827E362F806"
-        "OwnerKey" = "8:_C05D486466B7F76538F175F939158283"
+        "MsmKey" = "8:_BCEC3DA2B2FA062B51C61278E1048498"
+        "OwnerKey" = "8:_3657FA7A2F9799CAD80ECCE7068D83C2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_BDF70C9D660C1A3DA3251827E362F806"
+        "MsmKey" = "8:_BCEC3DA2B2FA062B51C61278E1048498"
         "OwnerKey" = "8:_1AAB9C88C1344E039176B88A6859922A"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -119,12 +131,6 @@
         {
         "MsmKey" = "8:_C005656F969E4893B409A6374953E164"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C05D486466B7F76538F175F939158283"
-        "OwnerKey" = "8:_1AAB9C88C1344E039176B88A6859922A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -171,6 +177,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_E8BF64AC3E58486F9436BF82F60F24F3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_EE79FDED98F1428AB65BD5101DBA30EB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -196,19 +208,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BDF70C9D660C1A3DA3251827E362F806"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_1AAB9C88C1344E039176B88A6859922A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C05D486466B7F76538F175F939158283"
+        "OwnerKey" = "8:_3657FA7A2F9799CAD80ECCE7068D83C2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_BCEC3DA2B2FA062B51C61278E1048498"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -229,6 +241,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -245,6 +265,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -405,6 +433,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_285E41917EA8421AAC1A6A34E9CC1666"
+            {
+            "SourcePath" = "8:..\\Clock\\Icons for Alarm Clock\\AlarmForms\\clock_alarm_hour_icon_231314.ico"
+            "TargetName" = "8:clock_alarm_hour_icon_231314.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_B402248B93AB46B39FFB67CDEC21CC6E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_31BECAA625B64D129EF62EF713F285FA"
             {
             "SourcePath" = "8:..\\Clock\\Fonts\\E1234.ttf"
@@ -443,6 +491,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3657FA7A2F9799CAD80ECCE7068D83C2"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_3657FA7A2F9799CAD80ECCE7068D83C2"
+                    {
+                    "Name" = "8:AxInterop.WMPLib.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:AxInterop.WMPLib.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A150E666DFF44C54AEE6E8991CDB9F0B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_606513DC83E741A98B5D8DA2CE849133"
@@ -505,6 +584,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6B5209302D42B56B6FB2835EE4AB960F"
+            {
+            "SourcePath" = "8:wmp.dll"
+            "TargetName" = "8:wmp.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_A150E666DFF44C54AEE6E8991CDB9F0B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6DDF8D7FF0894F36ABE8E083DBCF877D"
             {
             "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMFAT.ttf"
@@ -545,26 +644,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9836CD011FE4C614D752FB193FDE64EF"
-            {
-            "SourcePath" = "8:wmp.dll"
-            "TargetName" = "8:wmp.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_A150E666DFF44C54AEE6E8991CDB9F0B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9D2C3A638677418D90893744F4B35D30"
             {
             "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMSKEW.ttf"
@@ -585,14 +664,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BDF70C9D660C1A3DA3251827E362F806"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BCEC3DA2B2FA062B51C61278E1048498"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Interop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_BDF70C9D660C1A3DA3251827E362F806"
+                    "_BCEC3DA2B2FA062B51C61278E1048498"
                     {
                     "Name" = "8:Interop.WMPLib.dll"
                     "Attributes" = "3:512"
@@ -634,37 +713,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C05D486466B7F76538F175F939158283"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_C05D486466B7F76538F175F939158283"
-                    {
-                    "Name" = "8:AxInterop.WMPLib.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:AxInterop.WMPLib.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A150E666DFF44C54AEE6E8991CDB9F0B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C1BEA8D7C3054F13A0E1E46C9A4BC3A5"
@@ -807,6 +855,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E8BF64AC3E58486F9436BF82F60F24F3"
+            {
+            "SourcePath" = "8:..\\Clock\\Icons for Clock\\Main Forms\\clockhd_106113.ico"
+            "TargetName" = "8:clockhd_106113.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_B402248B93AB46B39FFB67CDEC21CC6E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EE79FDED98F1428AB65BD5101DBA30EB"
             {
             "SourcePath" = "8:..\\Clock\\Settings.ini"
@@ -934,6 +1002,17 @@
                                 {
                                 }
                             }
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_B402248B93AB46B39FFB67CDEC21CC6E"
+                    {
+                    "Name" = "8:Ico Files"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_51D9AA1141DE4CE2A304AC1C9A662D69"
+                        "Folders"
+                        {
                         }
                     }
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
@@ -1108,7 +1187,7 @@
             "Target" = "8:_1AAB9C88C1344E039176B88A6859922A"
             "Folder" = "8:_16F067C2736A498085ABE207F009A9FB"
             "WorkingFolder" = "8:_A150E666DFF44C54AEE6E8991CDB9F0B"
-            "Icon" = "8:"
+            "Icon" = "8:_285E41917EA8421AAC1A6A34E9CC1666"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_50310D8305D74AC397ED42AC9E7B640E"
@@ -1122,7 +1201,7 @@
             "Target" = "8:_1AAB9C88C1344E039176B88A6859922A"
             "Folder" = "8:_4B1D7A490F284AB38C15439CE38DF9D6"
             "WorkingFolder" = "8:_A150E666DFF44C54AEE6E8991CDB9F0B"
-            "Icon" = "8:"
+            "Icon" = "8:_285E41917EA8421AAC1A6A34E9CC1666"
             "Feature" = "8:"
             }
         }
