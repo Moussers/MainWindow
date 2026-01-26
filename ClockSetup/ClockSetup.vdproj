@@ -272,7 +272,7 @@
             "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_3657E1F9E4884EE7AF551DCC7470F5C4"
             {
             "Name" = "8:Clock.exe"
-            "Condition" = "8:"
+            "Condition" = "8:LAUNCHAPP"
             "Object" = "8:_31A393BC2B3E4A1886F98FC23EFD7EBD"
             "FileType" = "3:2"
             "InstallAction" = "3:2"
@@ -280,7 +280,7 @@
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
             "Identifier" = "8:_8B38092A_3DFD_4C3C_8D4B_3679E13B3FB0"
-            "InstallerClass" = "11:TRUE"
+            "InstallerClass" = "11:FALSE"
             "CustomActionData" = "8:"
             }
         }
@@ -1080,7 +1080,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ClockPV_521"
         "ProductCode" = "8:{2D189480-8FB1-48C6-996C-C38D643EDD79}"
-        "PackageCode" = "8:{0A3251C6-BC3D-4AC3-B300-82A7AF01B0DA}"
+        "PackageCode" = "8:{4146AEFD-2F90-4AA7-967B-C71DCCD129BD}"
         "UpgradeCode" = "8:{23D203A1-D112-478E-9713-7A5F2843ABD0}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
