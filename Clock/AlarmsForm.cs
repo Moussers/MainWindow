@@ -66,28 +66,30 @@ namespace Clock
                 }
             }
         }
-        public void SaveSettingsAalarm() 
+        public void SaveSettingsAlarm() 
         {
             Directory.SetCurrentDirectory($"{Application.ExecutablePath}\\..\\..\\..");
-            StreamWriter writer = new StreamWriter("Alarms.ini");
-            NumberAlarms = listBoxAlarms.Items.Count;
-            writer.WriteLine(NumberAlarms);
-            for (int i = 0; i < NumberAlarms; ++i)
+            using (StreamWriter writer = new StreamWriter("Alarms.ini"))
             {
-                Alarm alarm = listBoxAlarms.Items[i] as Alarm;
-                if (alarm != null)
+                NumberAlarms = listBoxAlarms.Items.Count;
+                writer.WriteLine(NumberAlarms);
+                for (int i = 0; i < NumberAlarms; ++i)
                 {
-                    writer.WriteLine(alarm.Date.Year.ToString());
-                    writer.WriteLine(alarm.Date.Month.ToString());
-                    writer.WriteLine(alarm.Date.Day.ToString());
-                    writer.WriteLine(alarm.Time.Hours.ToString());
-                    writer.WriteLine(alarm.Time.Minutes.ToString());
-                    writer.WriteLine(alarm.Time.Seconds.ToString());
-                    writer.WriteLine((alarm.Days.GetMask()).ToString());
-                    writer.WriteLine(alarm.Filename.ToString());
+                    Alarm alarm = listBoxAlarms.Items[i] as Alarm;
+                    if (alarm != null)
+                    {
+                        writer.WriteLine(alarm.Date.Year.ToString());
+                        writer.WriteLine(alarm.Date.Month.ToString());
+                        writer.WriteLine(alarm.Date.Day.ToString());
+                        writer.WriteLine(alarm.Time.Hours.ToString());
+                        writer.WriteLine(alarm.Time.Minutes.ToString());
+                        writer.WriteLine(alarm.Time.Seconds.ToString());
+                        writer.WriteLine((alarm.Days.GetMask()).ToString());
+                        writer.WriteLine(alarm.Filename.ToString());
+                    }
                 }
+                writer.Close();
             }
-            writer.Close();
         }
         private void listBoxAlarms_MouseDoubleClick(object sender, MouseEventArgs e)
         {

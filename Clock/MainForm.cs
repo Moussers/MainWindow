@@ -53,20 +53,22 @@ namespace Clock
         void SaveSettings() 
         {
             Directory.SetCurrentDirectory($"{Application.ExecutablePath}\\..\\..\\..");
-            StreamWriter writer = new StreamWriter("Settings.ini");
-            writer.WriteLine(this.Location.X);
-            writer.WriteLine(this.Location.Y);
-            writer.WriteLine(tsmiTopmost.Checked);
-            writer.WriteLine(tsmiShowControls.Checked);
-            writer.WriteLine(tsmiShowConsole.Checked);
-            writer.WriteLine(tsmiShowDate.Checked);
-            writer.WriteLine(tsmiShowWeekday.Checked);
-            writer.WriteLine(tsmiAutoStart.Checked);
-            writer.WriteLine(labelTime.BackColor.ToArgb());
-            writer.WriteLine(labelTime.ForeColor.ToArgb());
-            writer.WriteLine(fontDialog.FileName);
-            writer.WriteLine(labelTime.Font.Size);
-            writer.Close();
+            using (StreamWriter writer = new StreamWriter("Settings.ini")) 
+            {
+                writer.WriteLine(this.Location.X);
+                writer.WriteLine(this.Location.Y);
+                writer.WriteLine(tsmiTopmost.Checked);
+                writer.WriteLine(tsmiShowControls.Checked);
+                writer.WriteLine(tsmiShowConsole.Checked);
+                writer.WriteLine(tsmiShowDate.Checked);
+                writer.WriteLine(tsmiShowWeekday.Checked);
+                writer.WriteLine(tsmiAutoStart.Checked);
+                writer.WriteLine(labelTime.BackColor.ToArgb());
+                writer.WriteLine(labelTime.ForeColor.ToArgb());
+                writer.WriteLine(fontDialog.FileName);
+                writer.WriteLine(labelTime.Font.Size);
+                writer.Close();
+            }
            //System.Diagnostics.Process.Start("notepad", "Settings.ini");
         }
         void LoadSettings()
@@ -75,13 +77,11 @@ namespace Clock
             try
             {
                 StreamReader reader = new StreamReader("Settings.ini");
-
                 this.Location = new Point
                     (
                     Convert.ToInt32(reader.ReadLine()),
                     Convert.ToInt32(reader.ReadLine())
                     );
-
                 this.TopMost = tsmiTopmost.Checked = true;
                 tsmiTopmost.Checked = bool.Parse(reader.ReadLine());
                 tsmiShowControls.Checked = bool.Parse(reader.ReadLine());
@@ -89,13 +89,10 @@ namespace Clock
                 tsmiShowDate.Checked = bool.Parse(reader.ReadLine());
                 tsmiShowWeekday.Checked = bool.Parse(reader.ReadLine());
                 tsmiAutoStart.Checked = bool.Parse(reader.ReadLine());
-
                 labelTime.BackColor = backgroundColorDialog.Color = Color.FromArgb(Convert.ToInt32(reader.ReadLine()));
                 labelTime.ForeColor = foregroundColorDialog.Color = Color.FromArgb(Convert.ToInt32(reader.ReadLine()));
-
                 fontDialog = new FontDialog(reader.ReadLine(), reader.ReadLine());
                 labelTime.Font = fontDialog.Font;
-
                 reader.Close();
             }
             catch (Exception ex) 
@@ -245,7 +242,7 @@ namespace Clock
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             SaveSettings();
-            alarms.SaveSettingsAalarm();
+            alarms.SaveSettingsAlarm();
         }
 
         private void tsmiAlarms_Click(object sender, EventArgs e)

@@ -15,212 +15,218 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0FC018AE5F57474D9CE56769CEA1BF00"
+        "MsmKey" = "8:_016BB48F6ADC43B281EA9894B553AECA"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_111048CFE1E24E0F972CDCA967AFB4BB"
+        "MsmKey" = "8:_023E0650806343D09B0F70BB2F623CA3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_1AAB9C88C1344E039176B88A6859922A"
+        "MsmKey" = "8:_04DE255AF58B4D6DB1575E0CD3AEF535"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_1DDD64EB7CDC4B068E4969673DCAC9F0"
+        "MsmKey" = "8:_0F4BE6A0796E4F2E840E1348EB3C64E9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_2319B7495EE340C694EE832BD16C05FB"
+        "MsmKey" = "8:_10C39FCAAA7949B68A9C465629F941FB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_27EE1DB98D3547D8BAE056C20FF2C123"
+        "MsmKey" = "8:_13CD55870B784053B4B02B3DD74F7A87"
+        "OwnerKey" = "8:_469485FA5CF9446CC0930C6635D59CA6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_13CD55870B784053B4B02B3DD74F7A87"
+        "OwnerKey" = "8:_31A393BC2B3E4A1886F98FC23EFD7EBD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_196D29C9D3F24E3CAC5618C0611DBD72"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_285E41917EA8421AAC1A6A34E9CC1666"
+        "MsmKey" = "8:_305DA4F9F77F4A03A1719A8808E8EBFF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_31BECAA625B64D129EF62EF713F285FA"
+        "MsmKey" = "8:_31A393BC2B3E4A1886F98FC23EFD7EBD"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_3378AF27213E46758EE1B844A827DFBA"
+        "MsmKey" = "8:_33093DE49EB649F592C16A3D3F53F192"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_3657FA7A2F9799CAD80ECCE7068D83C2"
-        "OwnerKey" = "8:_1AAB9C88C1344E039176B88A6859922A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_606513DC83E741A98B5D8DA2CE849133"
+        "MsmKey" = "8:_3D4A63CD23784A0AA8132F0D1D41BCD5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_61E58103EC0045439DF71F4F2E87870F"
+        "MsmKey" = "8:_4215D287E4514720B3C823A3F6CD335C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_68B8005C787B4563B1298B8D5DE14FCD"
+        "MsmKey" = "8:_42A4F125D51FE04459BEDF36FE19436F"
+        "OwnerKey" = "8:_13CD55870B784053B4B02B3DD74F7A87"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_469485FA5CF9446CC0930C6635D59CA6"
+        "OwnerKey" = "8:_31A393BC2B3E4A1886F98FC23EFD7EBD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_48322EFE757D48CEBF40ACE131A33BBB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_6B5209302D42B56B6FB2835EE4AB960F"
-        "OwnerKey" = "8:_BCEC3DA2B2FA062B51C61278E1048498"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6DDF8D7FF0894F36ABE8E083DBCF877D"
+        "MsmKey" = "8:_565C742E26EA4FD68D6CC361DD7EDE81"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_955FBC3203AD4FEA9745FF425724E104"
+        "MsmKey" = "8:_6C9511603137465EBBDA8FB5570F6B25"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9D2C3A638677418D90893744F4B35D30"
+        "MsmKey" = "8:_72944E0EEDE048C4B6FEEAE12CD936E3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_BCEC3DA2B2FA062B51C61278E1048498"
-        "OwnerKey" = "8:_3657FA7A2F9799CAD80ECCE7068D83C2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BCEC3DA2B2FA062B51C61278E1048498"
-        "OwnerKey" = "8:_1AAB9C88C1344E039176B88A6859922A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C005656F969E4893B409A6374953E164"
+        "MsmKey" = "8:_751431987FE1467AAE49AB19A52A6F54"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_C1BEA8D7C3054F13A0E1E46C9A4BC3A5"
+        "MsmKey" = "8:_7664F110527B4567958AD8B52ED100B6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D891E189EE53477AB797E99184373401"
+        "MsmKey" = "8:_7A8880AF073B46F08311AA8EDD58C21B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D958A6C4781B482AA97673BE700A4CB9"
+        "MsmKey" = "8:_867D23917CC54CBA99AA94AA98A6FE1C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_DF45E044192B41EF972499A1E2DDD0BF"
+        "MsmKey" = "8:_8E63EAAC44BF4A269E192C2D4A9443A1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E1CA77B40ED2467AA6104B1D300CAEEC"
+        "MsmKey" = "8:_907BB34B5D9544129D89F9C277FAA12F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E33C4C31AD9F4472861C1B9E23BB16A3"
+        "MsmKey" = "8:_A9B4332B7DD34DE28AB64A6F0AA43193"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E83A973970B84B2D85BD3CE1CE7A1D1F"
+        "MsmKey" = "8:_B6FB393F11014459A4371997B14A02D0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E8BF64AC3E58486F9436BF82F60F24F3"
+        "MsmKey" = "8:_CD5F3A97BC084971BDDA2FFD6A59D7AB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EE79FDED98F1428AB65BD5101DBA30EB"
+        "MsmKey" = "8:_CE0F0825445247D99274E9400A00C36B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EFA0C0ADD3B24D49AFBBFB63EBF4068B"
+        "MsmKey" = "8:_D2FF37B56D6546629BFABC0CCA4DB7BB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F4F38D9BD3D04BD6AD835DEC574C4FB1"
+        "MsmKey" = "8:_D91F2499D3B4408D8F545E0DC0C19294"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F7C2E5E82446401FBF049A625B72499D"
+        "MsmKey" = "8:_E087DF9051CD491DA8F7C0639CF8B0C1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E9419BCC2A40426F9F92A74872681F80"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1AAB9C88C1344E039176B88A6859922A"
+        "OwnerKey" = "8:_13CD55870B784053B4B02B3DD74F7A87"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3657FA7A2F9799CAD80ECCE7068D83C2"
+        "OwnerKey" = "8:_31A393BC2B3E4A1886F98FC23EFD7EBD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BCEC3DA2B2FA062B51C61278E1048498"
+        "OwnerKey" = "8:_469485FA5CF9446CC0930C6635D59CA6"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -241,14 +247,6 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
-            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
-            {
-            "Enabled" = "11:TRUE"
-            "PromptEnabled" = "11:TRUE"
-            "PrerequisitesLocation" = "2:1"
-            "Url" = "8:"
-            "ComponentsUrl" = "8:"
-            }
         }
         "Release"
         {
@@ -265,14 +263,6 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
-            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
-            {
-            "Enabled" = "11:TRUE"
-            "PromptEnabled" = "11:TRUE"
-            "PrerequisitesLocation" = "2:1"
-            "Url" = "8:"
-            "ComponentsUrl" = "8:"
-            }
         }
     }
     "Deployable"
@@ -290,7 +280,7 @@
         {
             "LaunchCondition"
             {
-                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_7391D77D8B34407088BD4E825A4901B7"
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_F817A89857394C4B9F7819CE15D368F0"
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
@@ -302,32 +292,12 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0FC018AE5F57474D9CE56769CEA1BF00"
-            {
-            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMFATSKEWNARROW.ttf"
-            "TargetName" = "8:DIGITALDREAMFATSKEWNARROW.ttf"
-            "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_111048CFE1E24E0F972CDCA967AFB4BB"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_016BB48F6ADC43B281EA9894B553AECA"
             {
             "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMNARROW.ttf"
             "TargetName" = "8:DIGITALDREAMNARROW.ttf"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -342,194 +312,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1AAB9C88C1344E039176B88A6859922A"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Clock, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_1AAB9C88C1344E039176B88A6859922A"
-                    {
-                    "Name" = "8:Clock.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\Clock\\obj\\Debug\\Clock.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A150E666DFF44C54AEE6E8991CDB9F0B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1DDD64EB7CDC4B068E4969673DCAC9F0"
-            {
-            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAM.ttf"
-            "TargetName" = "8:DIGITALDREAM.ttf"
-            "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2319B7495EE340C694EE832BD16C05FB"
-            {
-            "SourcePath" = "8:..\\Clock\\Fonts\\digital-7 (mono italic).ttf"
-            "TargetName" = "8:digital-7 (mono italic).ttf"
-            "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_27EE1DB98D3547D8BAE056C20FF2C123"
-            {
-            "SourcePath" = "8:..\\Clock\\Fonts\\digital_counter_7_italic.ttf"
-            "TargetName" = "8:digital_counter_7_italic.ttf"
-            "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_285E41917EA8421AAC1A6A34E9CC1666"
-            {
-            "SourcePath" = "8:..\\Clock\\Icons for Alarm Clock\\AlarmForms\\clock_alarm_hour_icon_231314.ico"
-            "TargetName" = "8:clock_alarm_hour_icon_231314.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_B402248B93AB46B39FFB67CDEC21CC6E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_31BECAA625B64D129EF62EF713F285FA"
-            {
-            "SourcePath" = "8:..\\Clock\\Fonts\\E1234.ttf"
-            "TargetName" = "8:E1234.ttf"
-            "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3378AF27213E46758EE1B844A827DFBA"
-            {
-            "SourcePath" = "8:..\\Clock\\Fonts\\digital-7.ttf"
-            "TargetName" = "8:digital-7.ttf"
-            "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3657FA7A2F9799CAD80ECCE7068D83C2"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_3657FA7A2F9799CAD80ECCE7068D83C2"
-                    {
-                    "Name" = "8:AxInterop.WMPLib.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:AxInterop.WMPLib.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A150E666DFF44C54AEE6E8991CDB9F0B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_606513DC83E741A98B5D8DA2CE849133"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_023E0650806343D09B0F70BB2F623CA3"
             {
             "SourcePath" = "8:..\\Clock\\Fonts\\DS-DIGII.TTF"
             "TargetName" = "8:DS-DIGII.TTF"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -544,12 +332,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_61E58103EC0045439DF71F4F2E87870F"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_04DE255AF58B4D6DB1575E0CD3AEF535"
             {
-            "SourcePath" = "8:..\\Clock\\Fonts\\MOSCOW2024.otf"
-            "TargetName" = "8:MOSCOW2024.otf"
+            "SourcePath" = "8:..\\Clock\\Fonts\\digital-7 (italic).ttf"
+            "TargetName" = "8:digital-7 (italic).ttf"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -564,72 +352,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_68B8005C787B4563B1298B8D5DE14FCD"
-            {
-            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMFATNARROW.ttf"
-            "TargetName" = "8:DIGITALDREAMFATNARROW.ttf"
-            "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6B5209302D42B56B6FB2835EE4AB960F"
-            {
-            "SourcePath" = "8:wmp.dll"
-            "TargetName" = "8:wmp.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_A150E666DFF44C54AEE6E8991CDB9F0B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6DDF8D7FF0894F36ABE8E083DBCF877D"
-            {
-            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMFAT.ttf"
-            "TargetName" = "8:DIGITALDREAMFAT.ttf"
-            "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_955FBC3203AD4FEA9745FF425724E104"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0F4BE6A0796E4F2E840E1348EB3C64E9"
             {
             "SourcePath" = "8:..\\Clock\\Alarms.ini"
             "TargetName" = "8:Alarms.ini"
             "Tag" = "8:"
-            "Folder" = "8:_439BEB6BE889425CAD1AA18A2572AF3A"
+            "Folder" = "8:_212C705EF6E6440CA1B33DD636A9A1BE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -644,12 +372,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9D2C3A638677418D90893744F4B35D30"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_10C39FCAAA7949B68A9C465629F941FB"
             {
-            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMSKEW.ttf"
-            "TargetName" = "8:DIGITALDREAMSKEW.ttf"
+            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMFAT.ttf"
+            "TargetName" = "8:DIGITALDREAMFAT.ttf"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -664,14 +392,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BCEC3DA2B2FA062B51C61278E1048498"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_13CD55870B784053B4B02B3DD74F7A87"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Interop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_BCEC3DA2B2FA062B51C61278E1048498"
+                    "_13CD55870B784053B4B02B3DD74F7A87"
                     {
                     "Name" = "8:Interop.WMPLib.dll"
                     "Attributes" = "3:512"
@@ -680,7 +408,7 @@
             "SourcePath" = "8:Interop.WMPLib.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_A150E666DFF44C54AEE6E8991CDB9F0B"
+            "Folder" = "8:_FABF5E7171C14B83991837A21F8087E0"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -695,12 +423,12 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C005656F969E4893B409A6374953E164"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_196D29C9D3F24E3CAC5618C0611DBD72"
             {
-            "SourcePath" = "8:..\\Clock\\Fonts\\DS-DIGIB.TTF"
-            "TargetName" = "8:DS-DIGIB.TTF"
+            "SourcePath" = "8:..\\Clock\\Fonts\\MOSCOW2024.otf"
+            "TargetName" = "8:MOSCOW2024.otf"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -715,12 +443,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C1BEA8D7C3054F13A0E1E46C9A4BC3A5"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_305DA4F9F77F4A03A1719A8808E8EBFF"
             {
-            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMFATSKEW.ttf"
-            "TargetName" = "8:DIGITALDREAMFATSKEW.ttf"
+            "SourcePath" = "8:..\\Clock\\Fonts\\digital-7.ttf"
+            "TargetName" = "8:digital-7.ttf"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -735,12 +463,43 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D891E189EE53477AB797E99184373401"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_31A393BC2B3E4A1886F98FC23EFD7EBD"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Clock, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_31A393BC2B3E4A1886F98FC23EFD7EBD"
+                    {
+                    "Name" = "8:Clock.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\Clock\\obj\\Debug\\Clock.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_FABF5E7171C14B83991837A21F8087E0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_33093DE49EB649F592C16A3D3F53F192"
             {
             "SourcePath" = "8:..\\Clock\\Fonts\\DS-DIGIT.TTF"
             "TargetName" = "8:DS-DIGIT.TTF"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -755,12 +514,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D958A6C4781B482AA97673BE700A4CB9"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3D4A63CD23784A0AA8132F0D1D41BCD5"
             {
-            "SourcePath" = "8:..\\Clock\\Fonts\\DS-DIGI.TTF"
-            "TargetName" = "8:DS-DIGI.TTF"
+            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMFATSKEWNARROW.ttf"
+            "TargetName" = "8:DIGITALDREAMFATSKEWNARROW.ttf"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -775,12 +534,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DF45E044192B41EF972499A1E2DDD0BF"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4215D287E4514720B3C823A3F6CD335C"
             {
-            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMSKEWNARROW.ttf"
-            "TargetName" = "8:DIGITALDREAMSKEWNARROW.ttf"
+            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMFATSKEW.ttf"
+            "TargetName" = "8:DIGITALDREAMFATSKEW.ttf"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -795,12 +554,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E1CA77B40ED2467AA6104B1D300CAEEC"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_42A4F125D51FE04459BEDF36FE19436F"
             {
-            "SourcePath" = "8:..\\Clock\\Fonts\\E1234-Italic.ttf"
-            "TargetName" = "8:E1234-Italic.ttf"
+            "SourcePath" = "8:wmp.dll"
+            "TargetName" = "8:wmp.dll"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_FABF5E7171C14B83991837A21F8087E0"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -812,15 +571,26 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E33C4C31AD9F4472861C1B9E23BB16A3"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_469485FA5CF9446CC0930C6635D59CA6"
             {
-            "SourcePath" = "8:..\\Clock\\Fonts\\Terminat.ttf"
-            "TargetName" = "8:Terminat.ttf"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_469485FA5CF9446CC0930C6635D59CA6"
+                    {
+                    "Name" = "8:AxInterop.WMPLib.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:AxInterop.WMPLib.dll"
+            "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_FABF5E7171C14B83991837A21F8087E0"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -832,15 +602,15 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E83A973970B84B2D85BD3CE1CE7A1D1F"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_48322EFE757D48CEBF40ACE131A33BBB"
             {
             "SourcePath" = "8:..\\Clock\\Fonts\\digital-7 (mono).ttf"
             "TargetName" = "8:digital-7 (mono).ttf"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -855,12 +625,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E8BF64AC3E58486F9436BF82F60F24F3"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_565C742E26EA4FD68D6CC361DD7EDE81"
             {
-            "SourcePath" = "8:..\\Clock\\Icons for Clock\\Main Forms\\clockhd_106113.ico"
-            "TargetName" = "8:clockhd_106113.ico"
+            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMSKEW.ttf"
+            "TargetName" = "8:DIGITALDREAMSKEW.ttf"
             "Tag" = "8:"
-            "Folder" = "8:_B402248B93AB46B39FFB67CDEC21CC6E"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -875,12 +645,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EE79FDED98F1428AB65BD5101DBA30EB"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6C9511603137465EBBDA8FB5570F6B25"
             {
-            "SourcePath" = "8:..\\Clock\\Settings.ini"
-            "TargetName" = "8:Settings.ini"
+            "SourcePath" = "8:..\\Clock\\Fonts\\E1234-Italic.ttf"
+            "TargetName" = "8:E1234-Italic.ttf"
             "Tag" = "8:"
-            "Folder" = "8:_439BEB6BE889425CAD1AA18A2572AF3A"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -895,12 +665,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EFA0C0ADD3B24D49AFBBFB63EBF4068B"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_72944E0EEDE048C4B6FEEAE12CD936E3"
             {
-            "SourcePath" = "8:..\\Clock\\Fonts\\digital-7 (italic).ttf"
-            "TargetName" = "8:digital-7 (italic).ttf"
+            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMFATNARROW.ttf"
+            "TargetName" = "8:DIGITALDREAMFATNARROW.ttf"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -915,12 +685,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F4F38D9BD3D04BD6AD835DEC574C4FB1"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_751431987FE1467AAE49AB19A52A6F54"
             {
-            "SourcePath" = "8:..\\Clock\\Fonts\\digital_counter_7.ttf"
-            "TargetName" = "8:digital_counter_7.ttf"
+            "SourcePath" = "8:..\\Clock\\Fonts\\DS-DIGI.TTF"
+            "TargetName" = "8:DS-DIGI.TTF"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -935,12 +705,252 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F7C2E5E82446401FBF049A625B72499D"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7664F110527B4567958AD8B52ED100B6"
+            {
+            "SourcePath" = "8:..\\Clock\\Icons for Clock and Alarm\\Clock icons\\Main Forms\\6_122643.ico"
+            "TargetName" = "8:6_122643.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_E4CEB105FC9440DFBC87F44DDDD44638"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7A8880AF073B46F08311AA8EDD58C21B"
+            {
+            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAM.ttf"
+            "TargetName" = "8:DIGITALDREAM.ttf"
+            "Tag" = "8:"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_867D23917CC54CBA99AA94AA98A6FE1C"
+            {
+            "SourcePath" = "8:..\\Clock\\Fonts\\digital_counter_7_italic.ttf"
+            "TargetName" = "8:digital_counter_7_italic.ttf"
+            "Tag" = "8:"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8E63EAAC44BF4A269E192C2D4A9443A1"
+            {
+            "SourcePath" = "8:..\\Clock\\Fonts\\digital-7 (mono italic).ttf"
+            "TargetName" = "8:digital-7 (mono italic).ttf"
+            "Tag" = "8:"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_907BB34B5D9544129D89F9C277FAA12F"
+            {
+            "SourcePath" = "8:..\\Clock\\Fonts\\Terminat.ttf"
+            "TargetName" = "8:Terminat.ttf"
+            "Tag" = "8:"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A9B4332B7DD34DE28AB64A6F0AA43193"
             {
             "SourcePath" = "8:..\\Clock\\Fonts\\Crashed Scoreboard.ttf"
             "TargetName" = "8:Crashed Scoreboard.ttf"
             "Tag" = "8:"
-            "Folder" = "8:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B6FB393F11014459A4371997B14A02D0"
+            {
+            "SourcePath" = "8:..\\Clock\\Fonts\\DS-DIGIB.TTF"
+            "TargetName" = "8:DS-DIGIB.TTF"
+            "Tag" = "8:"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CD5F3A97BC084971BDDA2FFD6A59D7AB"
+            {
+            "SourcePath" = "8:..\\Clock\\Settings.ini"
+            "TargetName" = "8:Settings.ini"
+            "Tag" = "8:"
+            "Folder" = "8:_212C705EF6E6440CA1B33DD636A9A1BE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CE0F0825445247D99274E9400A00C36B"
+            {
+            "SourcePath" = "8:..\\Clock\\Icons for Clock and Alarm\\Clock icons\\Main Forms\\clock_alarm_hour_icon_231314.ico"
+            "TargetName" = "8:clock_alarm_hour_icon_231314.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_E4CEB105FC9440DFBC87F44DDDD44638"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D2FF37B56D6546629BFABC0CCA4DB7BB"
+            {
+            "SourcePath" = "8:..\\Clock\\Fonts\\digital_counter_7.ttf"
+            "TargetName" = "8:digital_counter_7.ttf"
+            "Tag" = "8:"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D91F2499D3B4408D8F545E0DC0C19294"
+            {
+            "SourcePath" = "8:..\\Clock\\Fonts\\DIGITALDREAMSKEWNARROW.ttf"
+            "TargetName" = "8:DIGITALDREAMSKEWNARROW.ttf"
+            "Tag" = "8:"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E087DF9051CD491DA8F7C0639CF8B0C1"
+            {
+            "SourcePath" = "8:..\\Clock\\Icons for Clock and Alarm\\Clock icons\\Adding Alarm Clocks\\clock_alarm_hour_icon_231556.ico"
+            "TargetName" = "8:clock_alarm_hour_icon_231556.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_E4CEB105FC9440DFBC87F44DDDD44638"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E9419BCC2A40426F9F92A74872681F80"
+            {
+            "SourcePath" = "8:..\\Clock\\Fonts\\E1234.ttf"
+            "TargetName" = "8:E1234.ttf"
+            "Tag" = "8:"
+            "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -961,7 +971,7 @@
         }
         "Folder"
         {
-            "{1525181F-901A-416C-8A58-119130FE478E}:_16F067C2736A498085ABE207F009A9FB"
+            "{1525181F-901A-416C-8A58-119130FE478E}:_0BD3FAEA6A464BDFA5E464438392C011"
             {
             "Name" = "8:#1916"
             "AlwaysCreate" = "11:FALSE"
@@ -972,7 +982,7 @@
                 {
                 }
             }
-            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_439BEB6BE889425CAD1AA18A2572AF3A"
+            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_212C705EF6E6440CA1B33DD636A9A1BE"
             {
             "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
@@ -982,53 +992,53 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_A8880EE93F474CB1A34B573C7CE49D17"
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_2498B3FD2A1845DD861428599F44CBD5"
+                    {
+                    "Name" = "8:Fonts"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_69678CC507F74CDD99AD88B2A90D127F"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_D0D7B074DA9B4338B59F32B84FEAB09A"
                     {
                     "Name" = "8:bin"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
-                    "Property" = "8:_2A4062761B4249F89C37D640A1EC672E"
+                    "Property" = "8:_54B75D6227464BE48669378ECC5EFBF0"
                         "Folders"
                         {
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_A150E666DFF44C54AEE6E8991CDB9F0B"
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_FABF5E7171C14B83991837A21F8087E0"
                             {
                             "Name" = "8:Debug"
                             "AlwaysCreate" = "11:FALSE"
                             "Condition" = "8:"
                             "Transitive" = "11:FALSE"
-                            "Property" = "8:_22879BC0B0114901B04467C64AF6224A"
+                            "Property" = "8:_2C79D101E0DD4F749555F46CA3840ADA"
                                 "Folders"
                                 {
                                 }
                             }
                         }
                     }
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_B402248B93AB46B39FFB67CDEC21CC6E"
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_E4CEB105FC9440DFBC87F44DDDD44638"
                     {
                     "Name" = "8:Ico Files"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
-                    "Property" = "8:_51D9AA1141DE4CE2A304AC1C9A662D69"
-                        "Folders"
-                        {
-                        }
-                    }
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_FF5DC8AB5EC74DF4BF1D9BBE233CFF82"
-                    {
-                    "Name" = "8:Fonts"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_791246D923B541449979A07D1A317454"
+                    "Property" = "8:_40CFD32E9C854726B7195D5FF75ED67E"
                         "Folders"
                         {
                         }
                     }
                 }
             }
-            "{1525181F-901A-416C-8A58-119130FE478E}:_4B1D7A490F284AB38C15439CE38DF9D6"
+            "{1525181F-901A-416C-8A58-119130FE478E}:_F10C6829EF65451F8930F86EB999EC16"
             {
             "Name" = "8:#1919"
             "AlwaysCreate" = "11:FALSE"
@@ -1054,25 +1064,25 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:ClockSetup"
-        "ProductCode" = "8:{E422695A-FEE6-4FB7-91CB-0F915EEFBC8E}"
-        "PackageCode" = "8:{F87754A6-FD28-444B-A2D3-47CDB3496E83}"
-        "UpgradeCode" = "8:{1E0103E7-3F46-42F5-B4D7-172683B33066}"
+        "ProductName" = "8:ClockPV_521"
+        "ProductCode" = "8:{2D189480-8FB1-48C6-996C-C38D643EDD79}"
+        "PackageCode" = "8:{DBE91A43-FD4A-4A3D-BD1C-0C245756F73F}"
+        "UpgradeCode" = "8:{23D203A1-D112-478E-9713-7A5F2843ABD0}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:PV_521"
+        "Manufacturer" = "8:Default Company Name"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:https://learn.microsoft.com/en-us/windows/win32/sync/event-objects"
+        "ARPHELPLINK" = "8:https://github.com/Moussers/WinForms"
         "Title" = "8:ClockSetup"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:SnadCat"
+        "ARPCONTACT" = "8:SandCat"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:TimeBomb"
-        "ARPURLINFOABOUT" = "8:https://github.com/Moussers/WinForms"
+        "ARPCOMMENTS" = "8:TimeBombs"
+        "ARPURLINFOABOUT" = "8:https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/events/"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
@@ -1088,7 +1098,7 @@
             {
                 "Keys"
                 {
-                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_8DAC183527C04B6E977F1ACF17C1E69F"
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_C289C80F126F41B48F4DE9CF624C1665"
                     {
                     "Name" = "8:Software"
                     "Condition" = "8:"
@@ -1097,7 +1107,7 @@
                     "Transitive" = "11:FALSE"
                         "Keys"
                         {
-                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_86BF6D2C0E784B21A412FD07AD5CF69F"
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_8F06110499464DECB6CFE63083B0C9EC"
                             {
                             "Name" = "8:[Manufacturer]"
                             "Condition" = "8:"
@@ -1122,7 +1132,7 @@
             {
                 "Keys"
                 {
-                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_0A0E4758A5994AB8B1F2C46047322F07"
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_51B88F14C9F8447CA2493A7AB906961A"
                     {
                     "Name" = "8:Software"
                     "Condition" = "8:"
@@ -1131,7 +1141,7 @@
                     "Transitive" = "11:FALSE"
                         "Keys"
                         {
-                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_2749680D34DC4E5FABDF19286B92BA35"
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_599BCBF8B7E441A28D5EC9AF32403284"
                             {
                             "Name" = "8:[Manufacturer]"
                             "Condition" = "8:"
@@ -1176,7 +1186,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_02459C7C8D1847DFA42E93D956AC17A7"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_23836806A75A4C0AB636BC181F2B7DE1"
             {
             "Name" = "8:ClockSetup"
             "Arguments" = "8:"
@@ -1184,13 +1194,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_1AAB9C88C1344E039176B88A6859922A"
-            "Folder" = "8:_16F067C2736A498085ABE207F009A9FB"
-            "WorkingFolder" = "8:_A150E666DFF44C54AEE6E8991CDB9F0B"
-            "Icon" = "8:_285E41917EA8421AAC1A6A34E9CC1666"
+            "Target" = "8:_31A393BC2B3E4A1886F98FC23EFD7EBD"
+            "Folder" = "8:_F10C6829EF65451F8930F86EB999EC16"
+            "WorkingFolder" = "8:_FABF5E7171C14B83991837A21F8087E0"
+            "Icon" = "8:_CE0F0825445247D99274E9400A00C36B"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_50310D8305D74AC397ED42AC9E7B640E"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_BA6549BD757348969496D07158D15127"
             {
             "Name" = "8:ClockSetup"
             "Arguments" = "8:"
@@ -1198,23 +1208,60 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_1AAB9C88C1344E039176B88A6859922A"
-            "Folder" = "8:_4B1D7A490F284AB38C15439CE38DF9D6"
-            "WorkingFolder" = "8:_A150E666DFF44C54AEE6E8991CDB9F0B"
-            "Icon" = "8:_285E41917EA8421AAC1A6A34E9CC1666"
+            "Target" = "8:_31A393BC2B3E4A1886F98FC23EFD7EBD"
+            "Folder" = "8:_0BD3FAEA6A464BDFA5E464438392C011"
+            "WorkingFolder" = "8:_FABF5E7171C14B83991837A21F8087E0"
+            "Icon" = "8:_CE0F0825445247D99274E9400A00C36B"
             "Feature" = "8:"
             }
         }
         "UserInterface"
         {
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_07B923FC3575416E941585CE38BE6348"
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_194F41344E0B40618537B2969AD2C6F3"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_511A4803EF9F4A36AE4E8270ED59D98D"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:2"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_8C5AA649AA934547AD91E267D404F295"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Finished"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_699262C45EC842C1A27E85CAAD4B2C37"
             {
             "Name" = "8:#1900"
             "Sequence" = "3:1"
             "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_8294F04B7FDE4F419C51D3AFD14E915E"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_D288D41C3A094E63A5AD0E4DE740B1EB"
                     {
                     "Sequence" = "3:300"
                     "DisplayName" = "8:Confirm Installation"
@@ -1236,7 +1283,42 @@
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_897DDD77E98848769706AFB426B1BCBE"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_D6DEFC521E6A4D8B8B27BBB66E9736E2"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "InstallAllUsersVisible"
+                            {
+                            "Name" = "8:InstallAllUsersVisible"
+                            "DisplayName" = "8:#1059"
+                            "Description" = "8:#1159"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_EC609120733A4D07B4A7C6903A6D5C75"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Welcome"
@@ -1284,13 +1366,22 @@
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_D7B279E8515C4403A7E51FEDD9219B3F"
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_6DE713BABD6E4554A3C1DCB89A9DCBFE"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:1"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_888634BA5D7C4C3E8F7D48224794DF37"
                     {
-                    "Sequence" = "3:200"
-                    "DisplayName" = "8:Installation Folder"
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Finished"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
                         "Properties"
                         {
                             "BannerBitmap"
@@ -1304,31 +1395,31 @@
                             "Setting" = "3:1"
                             "UsePlugInResources" = "11:TRUE"
                             }
-                            "InstallAllUsersVisible"
+                            "UpdateText"
                             {
-                            "Name" = "8:InstallAllUsersVisible"
-                            "DisplayName" = "8:#1059"
-                            "Description" = "8:#1159"
-                            "Type" = "3:5"
-                            "ContextData" = "8:1;True=1;False=0"
+                            "Name" = "8:UpdateText"
+                            "DisplayName" = "8:#1058"
+                            "Description" = "8:#1158"
+                            "Type" = "3:15"
+                            "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:0"
-                            "Value" = "3:1"
-                            "DefaultValue" = "3:1"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1258"
+                            "DefaultValue" = "8:#1258"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
                     }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_2626036011464E06B0096C611F318EC7"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_85A14A54B6544ACEB6C6DB26785E29A5"
             {
             "Name" = "8:#1901"
             "Sequence" = "3:1"
             "Attributes" = "3:2"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_DBC431799A0840358EC58815346B309F"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_08CEB1015F904ECAB50FDBE917B6E6E9"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Progress"
@@ -1365,42 +1456,14 @@
                     }
                 }
             }
-            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_302CFF3420904977BA75103275F29CEF"
-            {
-            "UseDynamicProperties" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
-            }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_4F4D7986B6114274B84277B4BC7109B5"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_B303AF666E8249FCB15AC7BDD9F94395"
             {
             "Name" = "8:#1900"
             "Sequence" = "3:2"
             "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_8720BCE477BB45CBAA7262FE541091A3"
-                    {
-                    "Sequence" = "3:200"
-                    "DisplayName" = "8:Installation Folder"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_AE7B217A5CA547319C02E47AA8806F9C"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_5864E5A072AB4262AEEF949E59F4F2CC"
                     {
                     "Sequence" = "3:300"
                     "DisplayName" = "8:Confirm Installation"
@@ -1422,7 +1485,29 @@
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C4DBE9DD49AC4292A0F462011089F840"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_807EC9B18ED440CB97D282CFF8B3E4BE"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_FF67D5912F6948548BFB8A5BD0902B3C"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Welcome"
@@ -1472,95 +1557,20 @@
                     }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_7C6510261AB543239E8B46F4F9BFB822"
-            {
-            "Name" = "8:#1902"
-            "Sequence" = "3:2"
-            "Attributes" = "3:3"
-                "Dialogs"
-                {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_47863BE2F7564D61B971494757905F17"
-                    {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:Finished"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                }
-            }
-            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_B0406E2F42DC497EA74F4825917D75BD"
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_E11DC563F80C4C5897387636A4874FAE"
             {
             "UseDynamicProperties" = "11:FALSE"
             "IsDependency" = "11:FALSE"
             "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_B4B94A71A5C448EA866189793586B17A"
-            {
-            "Name" = "8:#1902"
-            "Sequence" = "3:1"
-            "Attributes" = "3:3"
-                "Dialogs"
-                {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_96322D76A79945B0932D279C03AAC885"
-                    {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:Finished"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "UpdateText"
-                            {
-                            "Name" = "8:UpdateText"
-                            "DisplayName" = "8:#1058"
-                            "Description" = "8:#1158"
-                            "Type" = "3:15"
-                            "ContextData" = "8:"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1258"
-                            "DefaultValue" = "8:#1258"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                }
-            }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_FDEFA95FC1E84A9BB276EB117B460462"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_EFF84D1710DE46C6AC609D6E2E847DB2"
             {
             "Name" = "8:#1901"
             "Sequence" = "3:2"
             "Attributes" = "3:2"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_DCDFAF798B1B44D994847CD44394CFAD"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_04A310D57BC84D2AA5F267B763DA88E8"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Progress"
