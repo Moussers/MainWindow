@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Windows.Forms.VisualStyles;
 
 namespace Autorunner
 {
@@ -24,6 +25,7 @@ namespace Autorunner
             {
                 Process.Start("Clock.exe");
             }
+            this.Close();
         }
     }
 }

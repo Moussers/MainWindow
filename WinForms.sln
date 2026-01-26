@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Clock\Clock.csproj
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ClockSetup", "ClockSetup\ClockSetup.vdproj", "{3463BC7A-BE01-AE0C-1945-5E13E2087DD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autorunner", "Autorunner\Autorunner.csproj", "{A7DF06AD-B560-4E78-93D8-02E30CCA1D3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{9EA78A52-AB67-408D-96A4-BD600ABCBBAD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3463BC7A-BE01-AE0C-1945-5E13E2087DD9}.Debug|Any CPU.ActiveCfg = Debug
 		{3463BC7A-BE01-AE0C-1945-5E13E2087DD9}.Release|Any CPU.ActiveCfg = Release
+		{A7DF06AD-B560-4E78-93D8-02E30CCA1D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DF06AD-B560-4E78-93D8-02E30CCA1D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DF06AD-B560-4E78-93D8-02E30CCA1D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DF06AD-B560-4E78-93D8-02E30CCA1D3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

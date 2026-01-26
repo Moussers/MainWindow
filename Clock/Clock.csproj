@@ -66,12 +66,6 @@
     <Compile Include="AlarmsForm.Designer.cs">
       <DependentUpon>AlarmsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Autorunner.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Autorunner.Designer.cs">
-      <DependentUpon>Autorunner.cs</DependentUpon>
-    </Compile>
     <Compile Include="FontDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,9 +86,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AlarmsForm.resx">
       <DependentUpon>AlarmsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Autorunner.resx">
-      <DependentUpon>Autorunner.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FontDialog.resx">
       <DependentUpon>FontDialog.cs</DependentUpon>
