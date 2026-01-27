@@ -123,6 +123,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_7529550B6FE04435B78E3E6E1DAA03FB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_7664F110527B4567958AD8B52ED100B6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -130,12 +136,6 @@
         "Entry"
         {
         "MsmKey" = "8:_7A8880AF073B46F08311AA8EDD58C21B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_810B09D916284C4C9C5C7EF93085657C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -226,7 +226,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_810B09D916284C4C9C5C7EF93085657C"
+        "OwnerKey" = "8:_7529550B6FE04435B78E3E6E1DAA03FB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -313,18 +313,18 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_51A8D5963D5B43D191898D8DD20D92FB"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_9DD3665644564BB4AA6FD7996F8C703E"
             {
             "Name" = "8:Autorunner.exe"
             "Condition" = "8:"
-            "Object" = "8:_810B09D916284C4C9C5C7EF93085657C"
+            "Object" = "8:_7529550B6FE04435B78E3E6E1DAA03FB"
             "FileType" = "3:2"
             "InstallAction" = "3:2"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_59776438_2CFA_462B_AED6_72C0CEE0533C"
-            "InstallerClass" = "11:TRUE"
+            "Identifier" = "8:_1EB560E5_2389_456F_955E_FF633137DB9A"
+            "InstallerClass" = "11:FALSE"
             "CustomActionData" = "8:"
             }
         }
@@ -732,6 +732,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7529550B6FE04435B78E3E6E1DAA03FB"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Autorunner, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_7529550B6FE04435B78E3E6E1DAA03FB"
+                    {
+                    "Name" = "8:Autorunner.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\Clock\\bin\\Debug\\Autorunner.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_FABF5E7171C14B83991837A21F8087E0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7664F110527B4567958AD8B52ED100B6"
             {
             "SourcePath" = "8:..\\Clock\\Icons for Clock and Alarm\\Clock icons\\Main Forms\\6_122643.ico"
@@ -758,37 +789,6 @@
             "TargetName" = "8:DIGITALDREAM.ttf"
             "Tag" = "8:"
             "Folder" = "8:_2498B3FD2A1845DD861428599F44CBD5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_810B09D916284C4C9C5C7EF93085657C"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Autorunner, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_810B09D916284C4C9C5C7EF93085657C"
-                    {
-                    "Name" = "8:Autorunner.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\Clock\\bin\\Debug\\Autorunner.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_FABF5E7171C14B83991837A21F8087E0"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1155,7 +1155,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ClockPV_521"
         "ProductCode" = "8:{2D189480-8FB1-48C6-996C-C38D643EDD79}"
-        "PackageCode" = "8:{0D660A95-E4C1-419F-A8CF-61559AF4B217}"
+        "PackageCode" = "8:{26897D53-F1C7-4786-96AE-CACDD83C487E}"
         "UpgradeCode" = "8:{23D203A1-D112-478E-9713-7A5F2843ABD0}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"

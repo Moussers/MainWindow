@@ -5,10 +5,10 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 using System.Diagnostics;
-using System.Windows.Forms.VisualStyles;
+using System.Runtime.InteropServices;
 
 namespace Autorunner
 {
@@ -23,9 +23,21 @@ namespace Autorunner
         {
             if (checkBoxLaunch.Checked)
             {
+                AllocConsole();
+                Directory.SetCurrentDirectory($"{Application.ExecutablePath}\\..");
+                Console.WriteLine(Directory.GetCurrentDirectory());
+                string[] files = Directory.GetFiles(Directory.GetCurrentDirectory());
+                foreach (string i in files) 
+                {
+                    Console.WriteLine(i);
+                }
                 Process.Start("Clock.exe");
             }
             this.Close();
         }
+        [DllImport("kernel32.dll")]
+        public static extern bool AllocConsole();
+        [DllImport("kernel32.dll")]
+        public static extern bool FreeConsole();
     }
 }
