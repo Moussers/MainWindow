@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Autorunner));
             this.labelnfo = new System.Windows.Forms.Label();
             this.checkBoxLaunch = new System.Windows.Forms.CheckBox();
             this.buttonComplete = new System.Windows.Forms.Button();
@@ -46,6 +47,8 @@
             // checkBoxLaunch
             // 
             this.checkBoxLaunch.AutoSize = true;
+            this.checkBoxLaunch.Checked = true;
+            this.checkBoxLaunch.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxLaunch.Location = new System.Drawing.Point(27, 79);
             this.checkBoxLaunch.Name = "checkBoxLaunch";
             this.checkBoxLaunch.Size = new System.Drawing.Size(220, 17);
@@ -71,8 +74,12 @@
             this.Controls.Add(this.buttonComplete);
             this.Controls.Add(this.checkBoxLaunch);
             this.Controls.Add(this.labelnfo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Autorunner";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Заврешение установки";
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 
