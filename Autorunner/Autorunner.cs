@@ -9,6 +9,7 @@ using System.IO;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
+using System.Security.AccessControl;
 
 namespace Autorunner
 {
@@ -21,10 +22,19 @@ namespace Autorunner
 
         private void buttonComplete_Click(object sender, EventArgs e)
         {
+            Directory.SetCurrentDirectory($"{Application.ExecutablePath}\\..");
+            FileInfo settings = new FileInfo("..\\..\\Settings.ini");
+            FileSecurity security = settings.GetAccessControl();
+            security.AddAccessRule(
+                new FileSystemAccessRule
+                (
+                System.Security.Principal.WindowsIdentity.GetCurrent().Name,
+                FileSystemRights.FullControl,
+                AccessControlType.Allow)
+                );
             if (checkBoxLaunch.Checked)
             {
                 AllocConsole();
-                Directory.SetCurrentDirectory($"{Application.ExecutablePath}\\..");
                 Console.WriteLine(Directory.GetCurrentDirectory());
                 string[] files = Directory.GetFiles(Directory.GetCurrentDirectory());
                 foreach (string i in files) 
