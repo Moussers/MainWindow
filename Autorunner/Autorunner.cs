@@ -22,19 +22,23 @@ namespace Autorunner
 
         private void buttonComplete_Click(object sender, EventArgs e)
         {
+            AllocConsole();
             Directory.SetCurrentDirectory($"{Application.ExecutablePath}\\..");
             FileInfo settings = new FileInfo("..\\..\\Settings.ini");
             FileSecurity security = settings.GetAccessControl();
+            //security.SetOwner();
+            //Console.WriteLine(security.);
+            string user = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+            Console.WriteLine(user);
             security.AddAccessRule(
                 new FileSystemAccessRule
-                (
-                System.Security.Principal.WindowsIdentity.GetCurrent().Name,
+                (user,
                 FileSystemRights.FullControl,
                 AccessControlType.Allow)
                 );
+            settings.SetAccessControl(security);
             if (checkBoxLaunch.Checked)
             {
-                AllocConsole();
                 Console.WriteLine(Directory.GetCurrentDirectory());
                 string[] files = Directory.GetFiles(Directory.GetCurrentDirectory());
                 foreach (string i in files) 
